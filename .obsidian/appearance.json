@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "showViewHeader": true,
-  "baseFontSize": 21,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "[编辑-熊猫]缩减笔记下方空白大小",
     "【Tab-熊猫】多行标签页堆叠显示0.7",

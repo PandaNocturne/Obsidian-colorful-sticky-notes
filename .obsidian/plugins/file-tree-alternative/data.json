@@ -2,7 +2,7 @@
   "openViewOnStart": false,
   "ribbonIcon": true,
   "showRootFolder": false,
-  "showFilesFromSubFolders": true,
+  "showFilesFromSubFolders": false,
   "searchFunction": true,
   "allSearchOnlyInFocusedFolder": false,
   "showFilesFromSubFoldersButton": true,
