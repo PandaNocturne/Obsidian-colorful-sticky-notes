@@ -81,15 +81,15 @@
       "mode": "any"
     },
     {
-      "id": "obsidian-projects:show-projects",
-      "icon": "airplay",
-      "name": "Projects: 打开项目",
-      "mode": "any"
-    },
-    {
       "id": "quickadd:choice:9719dd12-a788-45bd-9c23-dea1e2d0d083",
       "icon": "aperture",
       "name": "QuickAdd: Macro：切换便笺背景",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:e9c08fd5-4b2c-4159-ae30-98de201f419a",
+      "icon": "airplay",
+      "name": "QuickAdd: Multi：快速命令",
       "mode": "any"
     }
   ],

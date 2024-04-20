@@ -5,11 +5,13 @@
   "showLineNumber": false,
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Assets",
+  "attachmentFolderPath": "assets",
   "promptDelete": false,
   "newFileLocation": "current",
   "userIgnoreFilters": [
     "assets/"
   ],
-  "trashOption": "local"
+  "trashOption": "local",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute"
 }

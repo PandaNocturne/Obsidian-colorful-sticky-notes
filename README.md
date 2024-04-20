@@ -1,27 +1,26 @@
 ---
 title: README
-aliases: []
 tags: [QuickNote]
 cssclasses:
   - YellowNote
 date: 2024-04-16
-modified: 2024-04-20 15:02:45
+modified: 2024-04-20 18:36:49
 created: 2024-04-16 18:54:25
-banner: "[[DailyNote.png]]"
+banner: "[[assets/README_IMG-1.gif]]"
 ---
 
-![2024-04-16_185425 多彩Ob便笺使用建议以及说明_IMG-1](assets/2024-04-16_185425%20多彩Ob便笺使用建议以及说明_IMG-1.gif)
+![README_IMG-2](assets/README_IMG-1.gif)
 
 ## 窗口移动
 
-![2024-04-16_185425 多彩Ob便笺使用建议以及说明_IMG-2](assets/2024-04-16_185425%20多彩Ob便笺使用建议以及说明_IMG-2.png)
+![README_IMG-2](assets/README_IMG-2.png)
 
 - 可以配合 AltSnap 窗口管理工具使用
 	- [AltSnap-便捷的拖动和管理窗口工具]( https://pkmer.cn/show/20231014160307 )
 
 ## 工具面板介绍
 
-![2024-04-16_185425 多彩Ob便笺使用建议以及说明_IMG-3](assets/2024-04-16_185425%20多彩Ob便笺使用建议以及说明_IMG-3.png)
+![README_IMG-2](assets/README_IMG-4.png)
 
 ## 使用建议
 

@@ -62,7 +62,8 @@
           "fileExistsMode": "Increment the file name",
           "setFileExistsBehavior": false
         }
-      ]
+      ],
+      "collapsed": true
     },
     {
       "id": "6c97c59c-1815-407c-b06a-0e97fe516fc5",
@@ -169,7 +170,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "ac5d1eae-012f-4a36-ad63-e5b02ffe5540",
@@ -192,7 +193,7 @@
           "macroId": "ed8ba278-78e5-4328-9be8-daabcf25be69"
         }
       ],
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "5f5e3d00-ca9e-44a6-a7ec-a42cc960d4fa",
@@ -255,6 +256,29 @@
           "type": "Macro",
           "command": true,
           "macroId": "36e206c6-b20e-4919-b785-91e88e593b97"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "e9c08fd5-4b2c-4159-ae30-98de201f419a",
+      "name": "Multi：快速命令",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "39f0db66-4de6-4e7a-847e-9d36534d68b0",
+          "name": "Macro：Project",
+          "type": "Macro",
+          "command": false,
+          "macroId": "fdfe2570-b001-4c51-aecc-f7e8f77ca85d"
+        },
+        {
+          "id": "14a698ad-22d2-4230-97ca-4a6eb6efa965",
+          "name": "Macro：Commander",
+          "type": "Macro",
+          "command": false,
+          "macroId": "7916c9f8-4378-4a77-a766-38c437f5d9ca"
         }
       ],
       "collapsed": false
@@ -456,6 +480,38 @@
           "id": "942ec905-450e-482c-9677-787c254b3126",
           "path": "config/2024-04-16_切换笔记背景.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：Project",
+      "id": "fdfe2570-b001-4c51-aecc-f7e8f77ca85d",
+      "commands": [
+        {
+          "name": "Projects: 打开项目",
+          "type": "Obsidian",
+          "id": "98fe81af-9421-4c74-a5da-baa6b60d5631",
+          "commandId": "obsidian-projects:show-projects"
+        },
+        {
+          "name": "关闭其他标签页",
+          "type": "Obsidian",
+          "id": "78ac70d4-ac06-4fc0-b192-81dfc64649d0",
+          "commandId": "workspace:close-others"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：Commander",
+      "id": "7916c9f8-4378-4a77-a766-38c437f5d9ca",
+      "commands": [
+        {
+          "name": "Commander: 打开 Commander 设置",
+          "type": "Obsidian",
+          "id": "da7004ec-7cb3-4249-8b5d-b1e0ef9cd90a",
+          "commandId": "cmdr:open-commander-settings"
         }
       ],
       "runOnStartup": false
