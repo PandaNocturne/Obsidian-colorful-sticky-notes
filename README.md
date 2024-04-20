@@ -9,18 +9,18 @@ created: 2024-04-16 18:54:25
 banner: "[[DailyNote.png]]"
 ---
 
-![README_IMG-2](assets/README_IMG-1.gif)
+![](assets/README_IMG-1.gif)
 
 ## 窗口移动
 
-![README_IMG-2](assets/README_IMG-2.png)
+![](assets/README_IMG-2.png)
 
 - 可以配合 AltSnap 窗口管理工具使用
 	- [AltSnap-便捷的拖动和管理窗口工具]( https://pkmer.cn/show/20231014160307 )
 
 ## 工具面板介绍
 
-![README_IMG-2](assets/README_IMG-4.png)
+![](assets/README_IMG-4.png)
 
 ## 使用建议
 
