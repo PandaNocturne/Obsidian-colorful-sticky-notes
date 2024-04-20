@@ -1,2 +1,3 @@
 .trash
+assets/
 2024
