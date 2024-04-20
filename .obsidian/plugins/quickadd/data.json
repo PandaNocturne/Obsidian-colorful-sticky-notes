@@ -63,7 +63,7 @@
           "setFileExistsBehavior": false
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "6c97c59c-1815-407c-b06a-0e97fe516fc5",
@@ -170,7 +170,7 @@
           "openFileInMode": "default"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "ac5d1eae-012f-4a36-ad63-e5b02ffe5540",
@@ -437,7 +437,7 @@
         {
           "name": "Template：QuickNote",
           "type": "Choice",
-          "id": "d5328392-9566-4d8e-991b-64ec5c278124",
+          "id": "176f7111-d83f-4a26-9647-50852fed2188",
           "choiceId": "11acb235-6249-462f-84ff-59e06547c859"
         },
         {
@@ -493,12 +493,6 @@
           "type": "Obsidian",
           "id": "98fe81af-9421-4c74-a5da-baa6b60d5631",
           "commandId": "obsidian-projects:show-projects"
-        },
-        {
-          "name": "关闭其他标签页",
-          "type": "Obsidian",
-          "id": "78ac70d4-ac06-4fc0-b192-81dfc64649d0",
-          "commandId": "workspace:close-others"
         }
       ],
       "runOnStartup": false

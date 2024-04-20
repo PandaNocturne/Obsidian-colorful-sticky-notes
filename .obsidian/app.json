@@ -12,6 +12,6 @@
     "assets/"
   ],
   "trashOption": "local",
-  "useMarkdownLinks": true,
-  "newLinkFormat": "absolute"
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest"
 }

@@ -4,9 +4,9 @@ tags: [QuickNote]
 cssclasses:
   - YellowNote
 date: 2024-04-16
-modified: 2024-04-20 18:36:49
+modified: 2024-04-20 21:22:21
 created: 2024-04-16 18:54:25
-banner: "[[assets/README_IMG-1.gif]]"
+banner: "[[DailyNote.png]]"
 ---
 
 ![README_IMG-2](assets/README_IMG-1.gif)

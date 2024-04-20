@@ -62,23 +62,17 @@
       "color": "#000000"
     },
     {
+      "id": "quickadd:choice:e9c08fd5-4b2c-4159-ae30-98de201f419a",
+      "icon": "airplay",
+      "name": "QuickAdd: Multi：快速命令",
+      "mode": "any"
+    },
+    {
       "id": "quickadd:choice:7ad1c14c-c758-44d5-95c9-f015e503b3ac",
       "icon": "archive",
       "name": "QuickAdd: Macro：删除文档后关闭空白窗口",
       "mode": "any",
       "color": "#ff0000"
-    },
-    {
-      "id": "quickadd:choice:af61fa20-9011-45e2-a213-da67bcca57c6",
-      "icon": "bookmark-plus",
-      "name": "QuickAdd: Macro：相邻窗口打开笔记",
-      "mode": "any"
-    },
-    {
-      "id": "workspace:close",
-      "icon": "lucide-x",
-      "name": "关闭当前标签页",
-      "mode": "any"
     },
     {
       "id": "quickadd:choice:9719dd12-a788-45bd-9c23-dea1e2d0d083",
@@ -87,9 +81,15 @@
       "mode": "any"
     },
     {
-      "id": "quickadd:choice:e9c08fd5-4b2c-4159-ae30-98de201f419a",
-      "icon": "airplay",
-      "name": "QuickAdd: Multi：快速命令",
+      "id": "quickadd:choice:af61fa20-9011-45e2-a213-da67bcca57c6",
+      "icon": "bookmark-plus",
+      "name": "QuickAdd: Macro：相邻窗口打开笔记",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:close-tab-group",
+      "icon": "lucide-x",
+      "name": "关闭此标签页分组",
       "mode": "any"
     }
   ],

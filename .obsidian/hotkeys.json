@@ -241,14 +241,7 @@
     }
   ],
   "workspace:new-tab": [],
-  "workspace:close": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "W"
-    }
-  ],
+  "workspace:close": [],
   "float-search:search-obsidian-globally-state": [
     {
       "modifiers": [
@@ -319,6 +312,14 @@
         "Shift"
       ],
       "key": "/"
+    }
+  ],
+  "workspace:close-tab-group": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "W"
     }
   ]
 }
