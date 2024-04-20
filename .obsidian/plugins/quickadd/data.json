@@ -1,0 +1,521 @@
+{
+  "choices": [
+    {
+      "id": "b568f778-7191-4a0c-a491-d61dc2007432",
+      "name": "Multi：Template",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "319c3c27-8a26-484f-ab58-7817d3253613",
+          "name": "Template：QuickNote (InsertLink)",
+          "type": "Template",
+          "command": true,
+          "templatePath": "config/【Template】便笺卡片.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD/YYYY-MM-DD_HHmmss}}"
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "11acb235-6249-462f-84ff-59e06547c859",
+          "name": "Template：QuickNote",
+          "type": "Template",
+          "command": true,
+          "templatePath": "config/【Template】便笺卡片.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD/YYYY-MM-DD_HHmmss}}"
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default",
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ]
+    },
+    {
+      "id": "6c97c59c-1815-407c-b06a-0e97fe516fc5",
+      "name": "Multi：窗口管理",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "2823a5ea-8698-4aa7-9914-366825f77487",
+          "name": "Macro：新窗口建立笔记",
+          "type": "Macro",
+          "command": true,
+          "macroId": "fc018ca2-843e-4f91-a28c-811a7a06f44c"
+        },
+        {
+          "id": "7053b559-b090-4d82-93eb-68d7df96e560",
+          "name": "Macro：新标签页打开",
+          "type": "Macro",
+          "command": true,
+          "macroId": "a3c4a820-ce9c-413b-8e99-253761b08964"
+        },
+        {
+          "id": "af61fa20-9011-45e2-a213-da67bcca57c6",
+          "name": "Macro：相邻窗口打开笔记",
+          "type": "Macro",
+          "command": true,
+          "macroId": "0ca0d48a-e692-461c-9359-2dd3a3e3a248"
+        },
+        {
+          "id": "d7e8f163-1b4e-4bbb-bfa7-e5510c93e3bc",
+          "name": "Macro：相邻窗口打开笔记 (InsertLink)",
+          "type": "Macro",
+          "command": true,
+          "macroId": "a475bdbf-ab19-4d48-af39-681381a8ff80"
+        },
+        {
+          "id": "c093d217-cc3e-4941-993b-36d35255014c",
+          "name": "Capture：设置当前窗口大小",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\n// 获取显示器的宽度和高度\nvar screenWidth = window.screen.width;\nvar screenHeight = window.screen.height;\n\n// 设置窗口的宽度和高度\nvar windowWidth = 400; // 设置窗口的宽度\nvar windowHeight = 450; // 设置窗口的高度\n\n// 计算窗口左上角的坐标，使其位于显示器中央\nvar windowLeft = (screenWidth - windowWidth) / 2;\nvar windowTop = (screenHeight - windowHeight) / 2;\n\n// 设置窗口的位置和大小\nactiveWindow.resizeTo(windowWidth , windowHeight ); // 调整窗口大小为宽度，高度\nactiveWindow.moveTo(windowLeft, windowTop);\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "d83d1d79-e4f2-469a-9fbf-a3e66baf934e",
+          "name": "Capture：移动主窗口至屏幕中间",
+          "type": "Capture",
+          "command": false,
+          "appendLink": false,
+          "captureTo": "",
+          "captureToActiveFile": true,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\n// 获取显示器的宽度和高度\nvar screenWidth = window.screen.width;\nvar screenHeight = window.screen.height;\n\n// 设置窗口的宽度和高度\nvar windowWidth = window.outerWidth;; // 窗口的宽度\nvar windowHeight = window.outerHeight; // 窗口的高度\n\n// 计算窗口左上角的坐标，使其位于显示器中央\nvar windowLeft = (screenWidth - windowWidth) / 2;\nvar windowTop = (screenHeight - windowHeight) / 2;\n\n// 设置窗口的位置和大小\nactiveWindow.resizeTo(windowWidth , windowHeight ); // 调整窗口大小为宽度，高度\nactiveWindow.moveTo(windowLeft, windowTop);\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "ac5d1eae-012f-4a36-ad63-e5b02ffe5540",
+      "name": "Multi：便捷操作",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "439c9221-a902-475d-bc00-bd49205779bc",
+          "name": "Macro：F2重命名",
+          "type": "Macro",
+          "command": true,
+          "macroId": "15c5f1c0-8efe-4eed-9d11-e279f3e5e7d5"
+        },
+        {
+          "id": "7ad1c14c-c758-44d5-95c9-f015e503b3ac",
+          "name": "Macro：删除文档后关闭空白窗口",
+          "type": "Macro",
+          "command": true,
+          "macroId": "ed8ba278-78e5-4328-9be8-daabcf25be69"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "5f5e3d00-ca9e-44a6-a7ec-a42cc960d4fa",
+      "name": "Multi：自动化操作",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "9719dd12-a788-45bd-9c23-dea1e2d0d083",
+          "name": "Macro：切换便笺背景",
+          "type": "Macro",
+          "command": true,
+          "macroId": "c8b97a4d-29ff-402e-9000-948a0dda1e7e"
+        },
+        {
+          "id": "b3d27b49-c090-46a3-ae24-877ab30c0b6b",
+          "name": "Capture：插入创建日期",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "config/【Template】便笺卡片.md",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": false,
+            "createWithTemplate": false,
+            "template": ""
+          },
+          "format": {
+            "enabled": true,
+            "format": "```js quickadd\nconst yaml = \"date\";\nconst file = app.workspace.getActiveFile();\nawait app.fileManager.processFrontMatter(file, fm => {\n  if (!fm[yaml]) {\n    fm[yaml] = \"\";\n    const ctime = new Date(file.stat.ctime);\n    fm[yaml] = moment(ctime).format(\"YYYY-MM-DD\");\n  }\n});\n```"
+          },
+          "insertAfter": {
+            "enabled": false,
+            "after": "",
+            "insertAtEnd": false,
+            "considerSubsections": false,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": false,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "fcaf4dc7-b6c7-4a8b-9675-497db9476ea3",
+          "name": "Macro：自动更新Banner",
+          "type": "Macro",
+          "command": true,
+          "macroId": "b78b506d-2465-45c5-b36e-13bfba6c406e"
+        },
+        {
+          "id": "f54a3dee-22e1-43c9-b15c-ec65ad4c087a",
+          "name": "Macro：Linter",
+          "type": "Macro",
+          "command": true,
+          "macroId": "36e206c6-b20e-4919-b785-91e88e593b97"
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "macros": [
+    {
+      "name": "Macro：F2重命名",
+      "id": "15c5f1c0-8efe-4eed-9d11-e279f3e5e7d5",
+      "commands": [
+        {
+          "name": "2024-03-27_重命名",
+          "type": "UserScript",
+          "id": "2c300acc-bfbc-4699-87dc-0a38a42d2fd9",
+          "path": "config/2024-03-27_重命名.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：删除文档后关闭空白窗口",
+      "id": "ed8ba278-78e5-4328-9be8-daabcf25be69",
+      "commands": [
+        {
+          "name": "删除当前文件",
+          "type": "Obsidian",
+          "id": "dc61f4f4-d5a0-4fe4-ad45-a1c5b938bf02",
+          "commandId": "app:delete-file"
+        },
+        {
+          "name": "关闭当前标签页",
+          "type": "Obsidian",
+          "id": "9a1a4480-4d9c-43ac-9974-116809919559",
+          "commandId": "workspace:close"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：自动更新Banner",
+      "id": "b78b506d-2465-45c5-b36e-13bfba6c406e",
+      "commands": [
+        {
+          "name": "2024-04-17_自动更新Banner",
+          "type": "UserScript",
+          "id": "ac0a033c-1a9e-4c83-ad57-39f0d43d5583",
+          "path": "config/2024-04-17_自动更新Banner.js",
+          "settings": {
+            "图片属性": "banner",
+            "是否强制更新": true,
+            "显示第几张图片": "1",
+            "默认图片": "DailyNote.png"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：Linter",
+      "id": "36e206c6-b20e-4919-b785-91e88e593b97",
+      "commands": [
+        {
+          "name": "Capture：插入创建日期",
+          "type": "Choice",
+          "id": "2fe9f39c-9181-4311-97f1-4e5d9754cb31",
+          "choiceId": "b3d27b49-c090-46a3-ae24-877ab30c0b6b"
+        },
+        {
+          "name": "2024-04-17_自动更新Banner",
+          "type": "UserScript",
+          "id": "3b48e95b-9b3e-4690-9ade-55e1d4937be6",
+          "path": "config/2024-04-17_自动更新Banner.js",
+          "settings": {
+            "图片属性": "banner",
+            "是否强制更新": true,
+            "显示第几张图片": "1",
+            "默认图片": "DailyNote.png"
+          }
+        },
+        {
+          "name": "保存当前文件",
+          "type": "Obsidian",
+          "id": "27fe2936-ab74-4de9-adac-78d0fad687be",
+          "commandId": "editor:save-file"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "c3e7f31a-aa8f-443a-8c56-e1f3beea6f12",
+          "time": 500
+        },
+        {
+          "name": "Linter: 格式化当前文件",
+          "type": "Obsidian",
+          "id": "d5f0b7cd-f466-4905-85e0-bd030b75a09f",
+          "commandId": "obsidian-linter:lint-file"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：新窗口建立笔记",
+      "id": "a3c4a820-ce9c-413b-8e99-253761b08964",
+      "commands": [
+        {
+          "name": "新标签页",
+          "type": "Obsidian",
+          "id": "7f39762c-1f96-41c0-aec6-a936b59de7c8",
+          "commandId": "workspace:new-tab"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "6925b9d1-1736-4938-95ba-f7a71be99bc0",
+          "time": 100
+        },
+        {
+          "name": "Another Quick Switcher: Recent search",
+          "type": "Obsidian",
+          "id": "7acb7050-67f2-4e8f-92d0-c8aa4fa94820",
+          "commandId": "obsidian-another-quick-switcher:search-command_recent-search"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：新窗口建立笔记",
+      "id": "fc018ca2-843e-4f91-a28c-811a7a06f44c",
+      "commands": [
+        {
+          "name": "在新窗口中打开当前面板",
+          "type": "Obsidian",
+          "id": "3a98a52b-14d3-426a-bd0f-ea561a70efc7",
+          "commandId": "workspace:open-in-new-window"
+        },
+        {
+          "name": "Capture：设置窗口大小",
+          "type": "Choice",
+          "id": "d91304ec-2bdb-44bd-ac47-de2c4ad79d27",
+          "choiceId": "d83d1d79-e4f2-469a-9fbf-a3e66baf934e"
+        },
+        {
+          "name": "Template：QuickNote",
+          "type": "Choice",
+          "id": "18fa6801-67bd-441d-a7f1-93a97085e651",
+          "choiceId": "11acb235-6249-462f-84ff-59e06547c859"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：相邻窗口打开笔记",
+      "id": "0ca0d48a-e692-461c-9359-2dd3a3e3a248",
+      "commands": [
+        {
+          "name": "Template：QuickNote",
+          "type": "Choice",
+          "id": "d5328392-9566-4d8e-991b-64ec5c278124",
+          "choiceId": "11acb235-6249-462f-84ff-59e06547c859"
+        },
+        {
+          "name": "2024-04-18_相邻窗口建立笔记",
+          "type": "UserScript",
+          "id": "457a9f86-3c38-4413-a7a2-faf1442f3a15",
+          "path": "config/2024-04-18_相邻窗口建立笔记.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：相邻窗口打开笔记 (InsertLink)",
+      "id": "a475bdbf-ab19-4d48-af39-681381a8ff80",
+      "commands": [
+        {
+          "name": "Template：QuickNote (copy)",
+          "type": "Choice",
+          "id": "1e730119-b87b-43fe-b0e8-d7ce4c9cea69",
+          "choiceId": "319c3c27-8a26-484f-ab58-7817d3253613"
+        },
+        {
+          "name": "2024-04-18_相邻窗口建立笔记",
+          "type": "UserScript",
+          "id": "560b9c82-3d09-493a-85bf-3f791f09344c",
+          "path": "config/2024-04-18_相邻窗口建立笔记.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：切换便笺背景",
+      "id": "c8b97a4d-29ff-402e-9000-948a0dda1e7e",
+      "commands": [
+        {
+          "name": "2024-04-16_切换笔记背景",
+          "type": "UserScript",
+          "id": "942ec905-450e-482c-9677-787c254b3126",
+          "path": "config/2024-04-16_切换笔记背景.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "config",
+  "announceUpdates": true,
+  "version": "1.8.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true
+  }
+}

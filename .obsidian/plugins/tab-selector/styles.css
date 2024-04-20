@@ -1,0 +1,142 @@
+.setting-item {
+	& .ts-setting-is-invalid {
+		border-color: red !important;
+	}
+
+	&.is-disabled {
+		opacity: 0.5;
+	}
+}
+
+.modal.tab-selector-modal {
+	& .ts-header {
+		display: flex;
+		gap: 0.25rem;
+		position: absolute;
+		top: 0.5rem;
+	}
+
+	& .ts-buttons-view {
+		margin-top: 1.5rem;
+	}
+	
+	& .ts-leaf-row {
+		display: flex;
+		align-items: stretch;
+		gap: 0.25rem;
+
+		&:not(:last-child) {
+			margin-bottom: 0.5rem;
+		}
+
+		& .ts-shortcut-btn {
+			font-weight: bold;
+			font-size: 1.5rem;
+			min-width: 2rem;
+			max-width: 2rem;
+			min-height: 2rem;
+			max-height: 2rem;
+			height: inherit;
+		}
+		
+		& .ts-leaf-name-btn {
+			display: flex;
+			justify-content: flex-start;
+			gap: 0.15rem;
+			width: calc(100% - 2.25rem);
+			min-height: 2rem;
+			max-height: 2rem;
+
+			& .ts-leaf-name {
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+
+			& .ts-option-wrapper {
+				display: flex;
+				align-items: center;
+				width: 100%;
+
+				& svg {
+					height: 0.75rem;
+					width: 0.75rem;
+					min-width: 0.75rem;
+					margin-right: 0.1rem;
+				}
+
+				& .ts-leaf-alias {
+					overflow: hidden;
+					text-overflow: ellipsis;
+					text-align: start;
+					width: 100%;
+					line-height: 1.2rem;
+				}
+
+				& small {
+					overflow: hidden;
+					text-overflow: ellipsis;
+					color: var(--text-muted);
+					line-height: 0.75rem;
+				}
+			}
+		}
+
+		&.ts-leaf-row-added-options {
+
+			& .ts-shortcut-btn {
+				min-width: 2.5rem;
+				max-width: 2.5rem;
+				min-height: initial;
+				max-height: initial;
+			}
+			
+			& .ts-leaf-name-btn {
+				justify-content: initial;
+				flex-direction: column;
+				align-items: start;
+				width: calc(100% - 2.75rem);
+				min-height: initial;
+				max-height: initial;
+				height: max-content;
+
+				& .ts-leaf-name {
+					text-align: start;
+					width: 100%;
+					line-height: 1.2rem;
+				}
+			}	
+		}
+	}
+	
+	& .ts-footer {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem 1rem;
+		opacity: 0.8;
+
+		&:has(div) {
+			margin-top: 0.75rem;
+		}
+
+		& .ts-page-nav {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			gap: 0.5rem;
+
+			& .ts-nav-btn {
+				width: 4rem;
+				font-weight: bold;
+			}
+		}
+
+		& .ts-legends {
+			display: flex;
+			gap: 0.25rem;
+
+			& .ts-keys {
+				font-weight: bold;
+			}	
+		}
+	}
+}

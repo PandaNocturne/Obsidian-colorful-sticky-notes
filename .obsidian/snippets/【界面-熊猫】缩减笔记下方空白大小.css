@@ -1,0 +1,14 @@
+/* 缩减笔记下方空白大小 */
+.workspace-leaf-content[data-type="markdown"]
+  :is(.markdown-preview-view, .markdown-rendered)
+  .markdown-preview-sizer,
+body:not(.plugin-cm-typewriter-scroll) .cm-s-obsidian .cm-content {
+  padding-bottom: 0px !important;
+}
+
+/*! 预览模式下缩减笔记下方空白大小 */
+.workspace-leaf-content[data-type="markdown"]
+  :is(.markdown-preview-view, .markdown-rendered)
+  .markdown-preview-sizer{
+  padding-bottom: 0px !important;
+}

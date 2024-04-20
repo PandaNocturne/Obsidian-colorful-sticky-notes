@@ -1,0 +1,6 @@
+---
+cssclasses:
+  - PinkNote
+tags:
+  - DailyNote
+---

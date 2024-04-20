@@ -1,0 +1,8 @@
+{
+  "areFoldersHidden": true,
+  "matchCaseInsensitive": true,
+  "attachmentFolderNames": [
+    "assets",
+    "config"
+  ]
+}

@@ -1,0 +1,45 @@
+/* @settings
+name: 【Properties】控制Yaml的显示情况
+id: 【Properties】控制Yaml的显示情况
+settings:
+-
+  id: hide-yaml
+  title: 显示或隐藏YAML(Properties)
+  type: class-toggle
+  addCommand: true
+  default: true
+- 
+  id: 3种模式的YAML的详细显示状态设置
+  title: 3种模式的YAML的详细显示状态设置
+  type: heading
+  level: 2
+  collapsed: true
+-
+  id: hide-preview-yaml
+  title: 隐藏阅读模式下的YAML(Properties)
+  type: class-toggle
+  default: true
+-
+  id: hide-source-yaml
+  title: 隐藏实时模式下的YAML(Properties)
+  type: class-toggle
+  default: true
+-
+  id: hide-cm-yaml
+  title: 隐藏源码模式下的YAML(Properties)
+  type: class-toggle
+  default: true
+*/
+
+/* 阅读模式和实时模式 */
+.hide-yaml.hide-preview-yaml .markdown-preview-view.show-properties .metadata-container,
+.hide-yaml.hide-source-yaml .markdown-source-view.is-live-preview.show-properties .metadata-container {
+  display: none;
+}
+
+.hide-yaml.hide-cm-yaml .cm-line:has(.cm-hmd-frontmatter) {
+  height: 0px;
+  opacity: 0;
+}
+
+/* ref: [隐藏frontmatter段的CSS代码 - 疑问解答 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/32576/2) */

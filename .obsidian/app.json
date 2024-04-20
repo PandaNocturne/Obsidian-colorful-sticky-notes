@@ -1,0 +1,15 @@
+{
+  "readableLineLength": false,
+  "propertiesInDocument": "visible",
+  "showInlineTitle": true,
+  "showLineNumber": false,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Assets",
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "assets/"
+  ],
+  "trashOption": "local"
+}

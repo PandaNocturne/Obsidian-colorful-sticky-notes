@@ -1,0 +1,28 @@
+/* !笔记背景颜色设置 */
+.view-content:has(> .YellowNote) {
+  --background-primary: rgb(255, 247, 209);
+}
+
+.view-content:has(> .GreenNote) {
+  --background-primary: rgb(228, 249, 224);
+}
+
+.view-content:has(> .PinkNote) {
+  --background-primary: rgb(255, 228, 241);
+}
+
+.view-content:has(> .PurpleNote) {
+  --background-primary: rgb(242, 230, 255);
+}
+
+.view-content:has(> .BlueNote) {
+  --background-primary: rgb(226, 241, 255);
+}
+
+.view-content:has(> .BlackNote) {
+  --background-primary: rgb(105, 105, 105);
+  color: aliceblue;
+  --text-faint: rgb(255, 255, 255);
+  --text-normal: rgb(255, 255, 255);
+  --checklist-done-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,346 @@
+{
+  "main": {
+    "id": "68eb8e445083de63",
+    "type": "split",
+    "children": [
+      {
+        "id": "926c6fa623dab69d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "428c105c778ca555",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44618581ed6733e4",
+    "type": "split",
+    "children": [
+      {
+        "id": "17ad24c8be887179",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ef3aa001c4fc7b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e605881f001df895",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
+          },
+          {
+            "id": "47ff975cc1c5a228",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6b5336edf9f5dc37",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "b66cb84c58d8ec54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3634b844cebae667",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "f37f56a83adc3ade",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "3cd1f7a9260ac034",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a2621e0969a0cc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "862218f588c3fb18",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "31674cb49ea41b2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024/2024-04/2024-04-18/2024-04-18_182059.md"
+              }
+            }
+          },
+          {
+            "id": "784cb79d9fc8376b",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 372.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "random-note:开始漫游笔记": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "tab-selector:Open tab selector": false,
+      "cmdr:Commander: 打开 Commander 设置": false,
+      "obsidian-projects:Open projects": false,
+      "float-search:Search Obsidian In Modal": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false,
+      "easy-toggle-sidebars:autoHide switcher": false
+    }
+  },
+  "floating": {
+    "id": "f949308e248361ef",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1f7a794808e893ac",
+        "type": "window",
+        "children": [
+          {
+            "id": "e8d51e225f135a12",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4d7df5a0066a158e",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 492,
+        "y": 936,
+        "width": 404,
+        "height": 435,
+        "maximize": false,
+        "zoom": -1
+      },
+      {
+        "id": "7ede7a10fea29da4",
+        "type": "window",
+        "children": [
+          {
+            "id": "500731c9e9b60304",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4e38d8caa20f7e34",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 897,
+        "y": 936,
+        "width": 409,
+        "height": 435,
+        "maximize": false,
+        "zoom": -1
+      },
+      {
+        "id": "ef5c5e3402a7a7c3",
+        "type": "window",
+        "children": [
+          {
+            "id": "be5b29a2722481a5",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "65defdad65540449",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024/2024-04/2024-04-18/2024-04-18.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 412,
+        "y": 66,
+        "width": 392,
+        "height": 355,
+        "maximize": false,
+        "zoom": -1
+      },
+      {
+        "id": "f0a214af34d491d0",
+        "type": "window",
+        "children": [
+          {
+            "id": "8c346040900428ac",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6b99b631083c6eb3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024/2024-04/2024-04-18/2024-04-18_182059.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 741,
+        "y": 114,
+        "width": 477,
+        "height": 351,
+        "maximize": false,
+        "zoom": -1
+      }
+    ]
+  },
+  "active": "6b99b631083c6eb3",
+  "lastOpenFiles": [
+    "2024/2024-04/2024-04-18/2024-04-18.md",
+    "2024/2024-04/2024-04-18/2024-04-18_182059.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072301.md",
+    "2024/2024-04/2024-04-16/2024-04-16.md",
+    "2024/2024-04/2024-04-17/2024-04-17.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072258.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072250.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072245.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072120.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072049.md",
+    "2024/2024-04/2024-04-18/2024-04-18_072104.md",
+    "2024/2024-04/2024-04-18/2024-04-18_071807.md",
+    "2024/2024-04/2024-04-18/2024-04-18_055842.md",
+    "2024/2024-04/2024-04-18/2024-04-18_055846.md",
+    "2024/2024-04/2024-04-18/2024-04-18_045455.md",
+    "2024/2024-04/2024-04-18/2024-04-18_045615.md",
+    "2024/2024-04/2024-04-18/2024-04-18_045414.md",
+    "2024/2024-04/2024-04-18/2024-04-18_045135.md",
+    "2024/2024-04/2024-04-18/2024-04-18_045132.md",
+    "assets/2024-04-16 默认日记模板-image-1.png",
+    "2024/2024-04/2024-04-17/2024-04-17_184112 插件配置.md",
+    "2024/2024-04/2024-04-18/2024-04-18_033017.md",
+    "2024/2024-04/2024-04-18/2024-04-18_033038.md",
+    "2024/2024-04/2024-04-18/2024-04-18_033039.md",
+    "2024/2024-04/2024-04-18/2024-04-18_033041.md",
+    "2024/2024-04/2024-04-18/2024-04-18_032335.md",
+    "2024/2024-04/2024-04-18/2024-04-18_032253.md",
+    "config/DailyNote.png",
+    "2024-04/2024-04-18",
+    "2024-04",
+    "assets/2024-04-18_IMG-1.jpg",
+    "assets/Pasted image 20240417183620.png",
+    "assets/Pasted image 20240418012403.png",
+    "assets/2024-04-18_011402_IMG-1.jpg",
+    "assets/2024-04-16_150403 键盘按键_IMG-1.png",
+    "2024/2024-04/2024-04-16",
+    "2024/2024-04/2024-04-17",
+    "2024/2024-04/2024-04-18",
+    "2024/2024-04",
+    "Assets/2024-04-16_150403 键盘按键_IMG-1.png",
+    "Assets/2024-04-18_011402_IMG-1.jpg",
+    "Assets/2024-04-18_IMG-1.jpg",
+    "config/2024-04-17_自动更新Banner.js",
+    "config/2024-04-17_自动插入第n个图片至Banner属性.js",
+    "2024/2024-04/2024-04-16",
+    "2024/2024-04/2024-04-17",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Canvas.canvas"
+  ]
+}

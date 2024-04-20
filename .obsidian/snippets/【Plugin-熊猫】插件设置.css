@@ -1,0 +1,142 @@
+/* ! 插件：FloatToc */
+/* 2024-01-07_12:42:03 透明背景和状态栏 + 状态栏加分割线 */
+.toolbar.pin {
+  background-color: transparent;
+}
+
+/* 2024-03-28_02:48：前置，设置最大高度，用来悬浮展开 */
+.floating-toc-div.floating-right.alignLeft .floating-toc {
+  background-color: var(--background-primary);
+  border-left: 2px solid var(--color-base-100);
+  height: 100%;
+  z-index: 10;
+
+}
+
+/* 2024-03-28_02:52：锁定或悬浮式 宽度固定 */
+.floating-toc-div.pin .floating-toc,
+.floating-toc:hover {
+  /* min-width: 6rem;
+  max-width: var( --floating-toc-line-width); */
+  width: var(--floating-toc-line-width);
+}
+
+.floating-toc-div .toolbar {
+  position: relative;
+  top: 0px;
+  right: 0px !important;
+}
+
+/* 2024-03-28_02:49：字体背景设置 */
+.floating-toc-div .floating-toc a.text {
+  background-color: transparent;
+}
+
+/* ! 插件：MySnippet */
+.menu.MySnippets-statusbar-menu {
+  width: 600px;
+  right: 400px !important;
+  max-height: 900px;
+}
+
+/* ! 插件：AnotherQuickSwitch */
+/* 2023-12-15_17:28:52 取消阴暗效果 */
+.modal-bg.another-quick-switcher__floating-modal-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: var(--background-modifier-cover); */
+  background-color: transparent;
+}
+
+/* 2023-12-15_17:29:44 稍微移动出现位置 */
+.another-quick-switcher__floating-prompt {
+  width: min(500px, 30vw);
+  /* margin-left: 4rem; */
+  opacity: 0.9;
+  box-shadow: none;
+}
+
+/* ! 插件：Thino */
+/* 输入框字体大小 已知预览大小默认为18px*/
+div[data-type="thino_view"] .markdown-source-view.mod-cm6 .cm-content>* {
+  font-size: 18px !important;
+}
+
+div[data-type="thino_view"] .markdown-source-view.mod-cm6 {
+  /* max-height: 300px !important; */
+}
+
+
+/* ! 插件：VariousComplements */
+/* 2024-01-07_12:41:40 取消状态栏显示，有点太占位置了 */
+body>div.app-container>div.status-bar>div.status-bar-item.plugin-various-complements {
+  display: none;
+}
+
+/* !插件：dateview */
+.block-language-dataviewjs,
+.block-language-dataview {
+  max-height: 500px;
+  overflow: auto;
+}
+
+
+/* ! better view */
+/* 2023-12-21_19:23:00 better view  */
+.better-search-views-file-match.markdown-rendered>*,
+.better-search-views-file-match.markdown-rendered>* {
+  font-size: 15px;
+}
+
+/* 2023-12-27_21:08:55 高亮样式 */
+.search-result-file-matched-text {
+  color: var(--text-normal);
+  /* background-color: var(--text-highlight-bg); */
+  border-radius: 3px;
+  background: none;
+  color: #4ffa7b;
+}
+
+/* ! hide folder */
+body>div.app-container>div.status-bar>div.status-bar-item.plugin-hide-folders {
+  display: none;
+}
+
+/*! 适配SNW插件的笔记引用按钮 */
+.snw-header-count-wrapper {
+  top: 55px;
+  right: 10px;
+  transform: scale(0.7);
+  opacity: 0.8;
+  background-color:rgb(255, 255, 255);
+}
+
+
+/* !Cmenu插件适配 */
+#cMenuModalBar {
+  bottom: 10px !important;
+  transform: scale(0.8);
+}
+
+/* !Editing Toolbar插件 */
+#cMenuToolbarModalBar {
+  /* 取消边框圆角 */
+  border-radius: 0px;
+  /* 高度设置 */
+  height: 30px !important;
+}
+
+/*! 适配Commander插件 */
+/* 删除添加按钮，鼠标右键就可以自己添 */
+.cmdr-adder {
+  display: none;
+}
+
+/* 删除阅读模式切换按钮 */
+/* div.view-header>div.view-actions>a:nth-last-child(1), */
+div.view-header>div.view-actions>a:nth-last-child(2) {
+  display: none;
+}

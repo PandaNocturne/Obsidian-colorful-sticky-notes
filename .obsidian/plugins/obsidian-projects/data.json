@@ -1,0 +1,212 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYY-MM-DD}}_{{time:HHmmss}}",
+      "templates": [
+        "config/【Template】便笺卡片.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "2024",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "2024",
+      "views": [
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "contain",
+            "cardWidth": 200
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ff0505",
+                "condition": {
+                  "field": "name",
+                  "operator": "not-contains",
+                  "enabled": true,
+                  "value": "_"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "created",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "a05f264d-06bd-41b0-8ea9-a11ca04a7348",
+          "name": "画册",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "interval": "2weeks"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "96460b67-cb8f-4669-afed-cf2498444ac5",
+          "name": "日历",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "aliases",
+              "banner",
+              "created",
+              "cssclasses",
+              "date",
+              "modified",
+              "tags",
+              "title"
+            ],
+            "fieldConfig": {
+              "name": {
+                "width": 241
+              },
+              "aliases": {
+                "hide": true
+              },
+              "banner": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "cssclasses": {
+                "width": 120
+              },
+              "modified": {
+                "hide": true
+              },
+              "date": {
+                "width": 120
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d5ff1b06-8e68-4fe9-b2ab-03e8542024c6",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "fa820947-fcff-44a1-a95d-c34c65d65334",
+      "name": "2024"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "banner",
+            "fitStyle": "contain"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2d6981e9-90fe-4276-80cc-195ba8cf40bf",
+          "name": "画册",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "54821b11-8a00-446d-a7af-3ef83a9b607e",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "2weeks"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "77e48274-3934-4e10-a012-c3061cf993cb",
+          "name": "日历",
+          "type": "calendar"
+        }
+      ],
+      "id": "7893e405-90ec-4442-9cc5-ba310cffc2a4",
+      "name": "根目录"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "fa820947-fcff-44a1-a95d-c34c65d65334",
+        "view": "96460b67-cb8f-4669-afed-cf2498444ac5"
+      }
+    ],
+    "linkBehavior": "open-note"
+  }
+}

@@ -1,0 +1,6 @@
+---
+cssclasses:
+  - YellowNote
+tags:
+  - QuickNote
+---

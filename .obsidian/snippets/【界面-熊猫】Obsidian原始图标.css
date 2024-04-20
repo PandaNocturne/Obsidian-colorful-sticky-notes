@@ -1,0 +1,10 @@
+/* !启动Obsidian按钮 */
+.titlebar-button.mod-logo {
+  display: flex !important;
+  background-color: inherit;
+}
+
+/* 需要微调文件夹缩进位置，悬浮菜单栏状态下不需要 */
+body .workspace-ribbon.mod-left:not(:hover)~.workspace-split .workspace-tabs.mod-top.mod-top-left-space .workspace-tab-header-container {
+  /* margin-left: 45px */
+}

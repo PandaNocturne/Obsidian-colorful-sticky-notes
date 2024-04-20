@@ -1,0 +1,203 @@
+
+:root {
+    --white: #FCFCFC;
+    --raisin-black: #1B1825;
+    --rich-black: #121019;
+    --dark-purple: #242032;
+    /* --tropical-indigo: #8B80F9; original, below darker*/
+    --tropical-indigo: #685fce;
+    --tropical-indigo-light: #A69EFA; 
+    --robin-egg-blue: #19D8D5;
+    --cool-gray: #7C809B;
+    --cool-gray-light: #cbcdd3;
+    --french-gray : #D1D2DC; /*cool gray light*/
+    --white-smoke: #F5F5F5;
+    --ylmn-blue: #375BA9; 
+    --mint: #13C4A3; 
+    --mint-light: #9af6e5; 
+    --anti-flash-white: #EBEBEB;
+    --folly-dark: #c7204a; 
+    --folly: #FF3366; 
+    --gold-light: rgb(232, 224, 139);
+    --gold: rgb(253, 233, 9);
+    --light-sea-green: #00BFB3; /* accent color*/
+    --floral-white:#FFF8F0;  /* try it for the text */
+    --bittersweet:#F05D5E;   /* try it for the separator lines */
+    /* --mint: #68B684; /*original*/ 
+    /*--mint: #4ea76e; /*darker*/
+    /*  */
+    --background-1st-dark: #1a1c25;
+    --background-2nd-dark: #20212b;
+    --divider:#202f4e; 
+    --bright-green: #5AFF15;
+    --dark-background-primary: var(--background-1st-dark);
+    --dark-background-secondary: var(--background-2nd-dark);
+    --dark-divider-color: var(--divider);
+    --dark-accent: var(--bright-green);
+    --dark-mint: #2f9b56; /*modded*/
+    --dark-code: var(--lime);
+    --dark-link: var(--mint);
+    --dark-code-background: #292c3a;
+    /*  */
+    --background-1st-light: #fcfcff;
+    --background-2nd-light: #eceff5;
+    --light-divider:#d7e4ff; 
+    --bright-green: #5AFF15;
+    --lime: #C3F73A;
+    --lime-dark: #92cb00;
+    --light-mint: #3fc570; /*original*/
+    --light-background-primary: var(--background-1st-light);
+    --light-background-secondary: var(--background-2nd-light);
+    --light-divider-color: var(--light-divider);
+    --light-accent: var(--light-mint);
+    --light-code: var(--dark-mint);
+    --light-link: var(--light-mint);
+    --light-code-background: #f3f6fc;
+    
+  }
+  
+  
+  .theme-dark {
+    --checklist-done-decoration: none;
+    --checklist-done-color: var(--cool-gray);
+    --file-line-width: var(--line-width);
+    --background-primary: var(--dark-background-primary);
+    --background-secondary: var(--dark-background-secondary);
+    --background-primary-alt: var(--dark-background-secondary);
+    --background-secondary-alt: var(--dark-background-secondary);
+    --tab-divider-color: var(--dark-divider-color);
+    --tab-outline-color: var(--dark-divider-color);
+    --divider-color: var(--dark-divider-color);
+    --interactive-accent: var(--dark-accent);
+    --color-accent: var(--dark-accent);
+    /* --bold-color: var(--dark-code);
+    --italic-color: var(--dark-link); */
+    --bold-color: var(--dark-link);
+    --link-color: var(--dark-link);
+    
+    /* Checkboxes  */
+    --checkbox-color: var(--dark-link);
+    --checkbox-color-hover: var(--dark-accent);
+    --checkbox-border-color-hover: var(--dark-accent);
+    
+    /* Code block*/
+    --codeblock-background: var(--dark-code-background);
+    --codeblock-color: var(--white);
+    --inline-code-background: var(--dark-code-background);
+    /* --inline-code-color: var(--bright-green); */
+    --code-variable-color: var(--white);
+    --code-function-color: var(--mint);
+    --code-builtin-color: var(--tropical-indigo-light);
+    --code-string-color: var(--gold-light);
+    --code-operator-color: var(--mint);
+    --code-comment-color: var(--cool-gray);
+    
+    /* Quotes */
+    --blockquote-background-color: var(--dark-code-background);
+    --blockquote-border-color: var(--dark-accent);
+    --blockquote-border-thickness: 5px;
+    
+    /* Text Formatting */
+    .cm-strong {
+      color: var(--bold-color) !important;
+    }
+    
+    /* Inline Code */
+    .cm-s-obsidian span.cm-inline-code  {
+      color: var(--dark-code) !important;
+    }
+    .markdown-rendered code {
+      color: var(--dark-code);
+    }
+    
+    /* Links */
+    .cm-s-obsidian span.cm-link {
+      color: var(--dark-link) !important;
+    }
+    .cm-s-obsidian span.cm-formatting-link.cm-url, .cm-s-obsidian span.cm-url {
+      color: var(--dark-link) !important;
+    }
+    --links-color: var(--dark-link);
+    /* Tags */
+    .cm-hashtag {
+      color: var(--dark-link) !important;
+    }
+    .tag {
+      color: var(--dark-link) !important;
+    }
+    
+    /* Explorer */
+    --folder-title-color: var(--floral-white);
+    --file-title-color: var(--floral-white);
+    --folder-filter: invert(51%) sepia(51%) saturate(596%) hue-rotate(89deg) brightness(89%) contrast(84%)
+  }
+  
+  .theme-light {
+    --checklist-done-decoration: none;
+    --checklist-done-color: var(--cool-gray);
+    --file-line-width: var(--line-width);
+    --background-primary: var(--light-background-primary);
+    --background-secondary: var(--light-background-secondary);
+    --background-primary-alt: var(--light-background-secondary);
+    --background-secondary-alt: var(--light-background-secondary);
+    --tab-divider-color: var(--light-divider-color);
+    --tab-outline-color: var(--light-divider-color);
+    --divider-color: var(--light-divider-color);
+    --interactive-accent: var(--light-accent);
+    --color-accent: var(--light-accent);
+    --bold-color: var(--light-code);
+    /* --italic-color: var(--light-link); */
+    --link-color: var(--light-link);
+    
+    /* Checkboxes  */
+    --checkbox-color: var(--light-link);
+    --checkbox-color-hover: var(--light-accent);
+    --checkbox-border-color-hover: var(--light-accent);
+    
+    /* Code block */
+    --codeblock-background: var(--light-code-background);
+    --codeblock-color: var(--rich-black);
+    --inline-code-background: var(--light-code-background);
+    --code-variable-color: var(--rich-black);
+    --code-string-color: var(--tropical-indigo);
+    --code-builtin-color: var(--mint);
+    --code-function-color: var(--bittersweet);
+    --code-operator-color: var(--mint);
+    --code-comment-color: var(--cool-gray);
+    
+    /* Inline Code */
+    .cm-s-obsidian span.cm-inline-code  {
+      color: var(--light-code) !important;
+    }
+    .markdown-rendered code {
+      color: var(--light-code);
+    }
+
+    /* Links */
+    .cm-s-obsidian span.cm-link {
+      color: var(--light-link) !important;
+    }
+    .cm-s-obsidian span.cm-formatting-link.cm-url, .cm-s-obsidian span.cm-url {
+      color: var(--light-link) !important;
+    }
+    --links-color: var(--light-link);
+
+    /* Tags */
+    .cm-hashtag {
+      color: var(--light-link) !important;
+    }
+    .tag {
+      color: var(--light-link) !important;
+    }
+    
+    /* Quotes */
+    --blockquote-background-color: var(--light-code-background);
+    --blockquote-border-color: var(--light-accent);
+    --blockquote-border-thickness: 5px;
+
+    /* Explorer */
+    --folder-title-color: var(--rich-black);
+    --file-title-color: var(--rich-black);
+    --folder-filter: invert(55%) sepia(89%) saturate(330%) hue-rotate(89deg) brightness(99%) contrast(88%);
+  }
+  

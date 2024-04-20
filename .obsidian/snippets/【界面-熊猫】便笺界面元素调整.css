@@ -1,0 +1,114 @@
+/* !阅读和编辑模式下边框间距的调整 */
+.view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller,
+.markdown-preview-view {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* ! 直接隐藏掉关闭和最小化按钮 */
+.mod-windows .titlebar-button,
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.mod-top-right-space .workspace-tab-header-container:after {
+	display: none;
+}
+
+/*! 添加可拖拽笔记的符号 */
+.workspace-split .workspace-leaf .view-header-icon {
+	display: flex;
+	position: absolute;
+	opacity: 1 !important;
+	right: 1px !important;
+	min-width: fit-content;
+}
+
+/* 更换图标 */
+div.view-header>div.clickable-icon.view-header-icon>svg {
+	display: none;
+}
+
+div.view-header>div.clickable-icon.view-header-icon::after {
+	content: "\2723";
+	font-size: 20px;
+	z-index: 10;
+	/* -webkit-app-region: drag; */
+}
+
+/* 工具栏位置微调 */
+.view-header:after {
+	content: "";
+	margin-left: 20px;
+}
+
+/* !工具面板设置-添加可拖动设置 */
+.view-header {
+	/* 工具栏设置可以拖动的属性 */
+	-webkit-app-region: drag;
+	/* 其他样式设定 */
+	background: transparent !important;
+	/* 空余部分给Obsidian图标使用 */
+	width: calc(100% - 30px);
+	left: 30px;
+	margin-right: 0px;
+	padding: 0px 0px;
+	justify-content: end;
+}
+
+/*不显示工具栏的文件路径 */
+.view-header .mod-fade {
+	background-color: transparent;
+	display: none;
+}
+
+/* !页面标题设置-添加可拖动设置 */
+.inline-title {
+	-webkit-app-region: drag;
+	font-size: 12px;
+	position: sticky !important;
+	top: 0px;
+	text-align: right;
+	opacity: 0.8;
+	pointer-events: none;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+/*! 适配Commander插件 */
+/* 删除添加按钮，鼠标右键就可以自己添 */
+.cmdr-adder {
+	display: none;
+}
+
+/* 删除阅读模式切换按钮 */
+/* div.view-header>div.view-actions>a:nth-last-child(1), */
+div.view-header>div.view-actions>a:nth-last-child(2) {
+	display: none;
+}
+
+/* !侧边栏自动隐藏 */
+.workspace-ribbon {
+	border: none;
+}
+
+body .workspace-ribbon.mod-left:not(:hover):before,
+body .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+	margin-left: -40px;
+	background-color: var(--interactive-accent) !important;
+	opacity: 0.6;
+}
+
+body .workspace-ribbon.side-dock-ribbon.mod-left .sidebar-toggle-button.mod-left,
+body .workspace-ribbon.mod-left:before,
+body .workspace-ribbon.side-dock-ribbon.mod-left,
+body .workspace-ribbon.mod-left:hover~.workspace-split .workspace-tabs.mod-top .workspace-tab-header-container {
+	transition: all 350ms ease-in-out;
+}
+
+/* 将侧边的折叠按钮设置为透明的高度最大 */
+.workspace-ribbon.mod-left .sidebar-toggle-button {
+	padding-top: 40px;
+	width: 20px;
+	height: 100%;
+	opacity: 0;
+	z-index: -1;
+}
