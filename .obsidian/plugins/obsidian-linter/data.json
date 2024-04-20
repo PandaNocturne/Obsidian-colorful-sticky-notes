@@ -72,7 +72,7 @@
       "mode": "first-h1-or-filename-if-h1-missing"
     },
     "yaml-title-alias": {
-      "enabled": false,
+      "enabled": true,
       "preserve-existing-alias-section-style": true,
       "keep-alias-that-matches-the-filename": false,
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": false

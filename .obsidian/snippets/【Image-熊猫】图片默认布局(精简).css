@@ -1,0 +1,109 @@
+/* 片段来自：pkmer知识管理交流群，@熊猫别熬夜*/
+/* 将所有图片默认居中 */
+/* body:not(.list-image-control-off) :is(.HyperMD-list-line, ul) .image-embed.image-embed img:not([width]) {
+  margin: 0 auto;
+  object-fit: contain;
+  background-color: transparent !important;
+} */
+
+/* !编辑模式 则 最大为400 */
+/* :not(.excalidraw-svg) */
+.markdown-preview-view img:not([width]):not(.code-styler-icon):not(.svelte-frmt02),
+.markdown-rendered img:not([width]):not(.code-styler-icon):not(.svelte-frmt02),
+.markdown-source-view.mod-cm6 img:not([width]):not(.code-styler-icon):not(.svelte-frmt02) {
+  max-width: 200px;
+  max-height: 20vh;
+}
+
+/* !图片网格布局 */
+/* [2024-03-28_ObsidianCSS：Image图片网格布局-Obsidian英文论坛](obsidian://advanced-uri?vault=PandaNotes&uid=20240328010924560) */
+/* https://forum.obsidian.md/t/display-side-by-side-image-grid/9359/38 */
+.markdown-preview-section>div>p>img+br {
+  display: none;
+}
+
+.markdown-rendered img:not([width]):not(.code-styler-icon):not(.svelte-frmt02),
+.markdown-source-view.mod-cm6 img:not([width]):not(.code-styler-icon):not(.svelte-frmt02) {
+  margin: 4px;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 20vh;
+}
+
+/* 视频 */
+video {
+  display: block;
+  margin: 0 auto;
+  /* 设置左右间距为自适应，上下间距为零 */
+  width: 90%;
+}
+
+/* === Image Float === */
+body {
+  --float-left-margin: 4px 12px 4px 12px;
+  --float-right-margin: 4px 12px 4px 12px;
+  --float-snw-display: none;
+}
+
+span[alt="O"] img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+span[alt="OL"] img {
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  text-align: left;
+  margin: var(--float-left-margin);
+  margin-block: unset;
+  display: inline !important;
+}
+
+span[alt="OR"] img {
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  text-align: right;
+  margin: var(--float-right-margin);
+  margin-block: unset;
+  display: inline !important;
+}
+
+span[alt="L"] img {
+  float: left;
+  text-align: left;
+  margin: var(--float-left-margin);
+  margin-block: unset;
+  display: inline !important;
+}
+
+span[alt="R"] img {
+  float: right;
+  text-align: right;
+  margin: var(--float-right-margin);
+  margin-block: unset;
+  display: inline !important;
+}
+
+/* 独占一行 */
+span[alt="I"] img {
+  float: unset;
+  text-align: left;
+
+  height: 1.5rem;
+
+  margin: 0px 0px 0px 0px;
+  transform: translateY(0.2rem);
+  margin-block: unset;
+  display: inline !important;
+}
+
+span[alt="IR"] img {
+  float: unset;
+  text-align: right;
+  margin: var(--float-right-margin);
+  margin-block: unset;
+  display: inline !important;
+}

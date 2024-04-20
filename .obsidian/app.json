@@ -11,7 +11,5 @@
   "userIgnoreFilters": [
     "assets/"
   ],
-  "trashOption": "local",
-  "newLinkFormat": "absolute",
-  "useMarkdownLinks": true
+  "trashOption": "local"
 }

@@ -1,5 +1,5 @@
 {
-  "hideRibbon": true,
+  "hideRibbon": false,
   "hideStatus": true,
   "hideTabs": true,
   "hideScroll": true,

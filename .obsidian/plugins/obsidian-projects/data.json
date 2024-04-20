@@ -22,7 +22,10 @@
           "config": {
             "coverField": "banner",
             "fitStyle": "contain",
-            "cardWidth": 200
+            "cardWidth": 200,
+            "includeFields": [
+              "aliases"
+            ]
           },
           "filter": {
             "conditions": []

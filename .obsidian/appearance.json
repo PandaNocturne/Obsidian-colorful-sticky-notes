@@ -26,7 +26,11 @@
     "【界面-熊猫】便笺界面元素调整",
     "【背景-熊猫】笔记背景颜色",
     "【界面-熊猫】Obsidian原始图标",
-    "【编辑-熊猫】显示隐藏字符"
+    "【编辑-熊猫】显示隐藏字符",
+    "【界面-熊猫】侧边栏自动隐藏",
+    "【Image-熊猫】图片默认布局(精简)",
+    "[分栏-熊猫]minimal-Cards",
+    "【分栏-熊猫】minimal-Cards"
   ],
   "baseFontSizeAction": true,
   "nativeMenus": false,

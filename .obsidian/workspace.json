@@ -13,14 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "2024/2024-04/2024-04-20/2024-04-20.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acd7707b3e74e2b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-20/2024-04-20_174050.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c80ac65f4ad3276",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
+            "id": "63bb09d14565de89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-20/2024-04-20_174050.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41275a8e6f72867b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-20/2024-04-20_174050.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -50,17 +98,6 @@
             }
           },
           {
-            "id": "b66cb84c58d8ec54",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "f37f56a83adc3ade",
             "type": "leaf",
             "state": {
@@ -74,8 +111,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b66cb84c58d8ec54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -104,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "2024/2024-04/2024-04-20/2024-04-20_174050.md"
               }
             }
           },
@@ -116,7 +165,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -141,14 +191,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "428c105c778ca555",
+  "active": "63bb09d14565de89",
   "lastOpenFiles": [
-    "新建文本文档.txt",
-    "README.md",
+    "2024/2024-04/2024-04-20/2024-04-20_174050.md",
+    "assets/2024-04-20_174050_IMG-2.png",
+    "assets/2024-04-20_174050_IMG-1.png",
+    "Assets/2024-04-20_174050_IMG-2.png",
+    "Assets/2024-04-20_174050_IMG-1.png",
     "2024/2024-04/2024-04-20/2024-04-20.md",
-    "2024/2024-04/2024-04-20",
-    "2024/2024-04",
+    "2024/2024-04/2024-04-20/2024-04-20_171237.md",
+    "2024/2024-04/2024-04-20/2024-04-20_162055 Thino Capture.md",
+    "assets/2024-04-20_162055 Thino Capture_Video-1.mp4",
+    "Assets/2024-04-20_162055 Thino Capture_Video-1.mp4",
+    "2024/2024-04/2024-04-20/2024-04-20_161753 版本自动备份.md",
+    "assets/2024-04-20_161753 版本自动备份_IMG-1.png",
+    "Assets/2024-04-20_161753 版本自动备份_IMG-1.png",
+    "2024/2024-04/2024-04-20/2024-04-20_161337 Obsidian文件夹则折叠 by Moy.md",
+    "assets/2024-04-20_161337 Obsidian文件夹则折叠 by Moy_IMG-2.jpg",
+    "assets/2024-04-20_161337 Obsidian文件夹则折叠 by Moy_IMG-1.jpg",
+    "Assets/2024-04-20_161337 Obsidian文件夹则折叠 by Moy_IMG-2.jpg",
+    "Assets/2024-04-20_161337 Obsidian文件夹则折叠 by Moy_IMG-1.jpg",
     "2024/2024-04/2024-04-18/2024-04-18.md",
+    "2024/2024-04/2024-04-20",
     "2024/2024-04/2024-04-18/2024-04-18_182059.md",
     "2024/2024-04/2024-04-18/2024-04-18_072301.md",
     "2024/2024-04/2024-04-16/2024-04-16.md",
@@ -167,28 +231,13 @@
     "2024/2024-04/2024-04-18/2024-04-18_045414.md",
     "2024/2024-04/2024-04-18/2024-04-18_045135.md",
     "2024/2024-04/2024-04-18/2024-04-18_045132.md",
-    "assets/2024-04-16 默认日记模板-image-1.png",
-    "2024/2024-04/2024-04-17/2024-04-17_184112 插件配置.md",
-    "2024/2024-04/2024-04-18/2024-04-18_033017.md",
-    "2024/2024-04/2024-04-18/2024-04-18_033038.md",
-    "2024/2024-04/2024-04-18/2024-04-18_033039.md",
-    "config/DailyNote.png",
     "2024-04/2024-04-18",
     "2024-04",
-    "assets/2024-04-18_IMG-1.jpg",
-    "assets/Pasted image 20240417183620.png",
-    "assets/Pasted image 20240418012403.png",
-    "assets/2024-04-18_011402_IMG-1.jpg",
-    "assets/2024-04-16_150403 键盘按键_IMG-1.png",
     "2024/2024-04/2024-04-16",
     "2024/2024-04/2024-04-17",
     "2024/2024-04/2024-04-18",
-    "Assets/2024-04-16_150403 键盘按键_IMG-1.png",
-    "Assets/2024-04-18_011402_IMG-1.jpg",
-    "Assets/2024-04-18_IMG-1.jpg",
+    "2024/2024-04",
     "config/2024-04-17_自动更新Banner.js",
-    "config/2024-04-17_自动插入第n个图片至Banner属性.js",
-    "2024/2024-04/2024-04-16",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",

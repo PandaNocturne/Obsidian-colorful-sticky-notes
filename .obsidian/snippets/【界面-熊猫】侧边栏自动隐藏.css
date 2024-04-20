@@ -1,0 +1,28 @@
+
+/* !侧边栏自动隐藏 */
+.workspace-ribbon {
+	border: none;
+}
+
+body .workspace-ribbon.mod-left:not(:hover):before,
+body .workspace-ribbon.side-dock-ribbon.mod-left:not(:hover) {
+	margin-left: -40px;
+	background-color: var(--interactive-accent) !important;
+	opacity: 0.6;
+}
+
+body .workspace-ribbon.side-dock-ribbon.mod-left .sidebar-toggle-button.mod-left,
+body .workspace-ribbon.mod-left:before,
+body .workspace-ribbon.side-dock-ribbon.mod-left,
+body .workspace-ribbon.mod-left:hover~.workspace-split .workspace-tabs.mod-top .workspace-tab-header-container {
+	transition: all 350ms ease-in-out;
+}
+
+/* 将侧边的折叠按钮设置为透明的高度最大 */
+.workspace-ribbon.mod-left .sidebar-toggle-button {
+	padding-top: 40px;
+	width: 20px;
+	height: 100%;
+	opacity: 0;
+	z-index: -1;
+}
