@@ -42,19 +42,6 @@
             }
           },
           {
-            "id": "63bb09d14565de89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/2024-04/2024-04-20/2024-04-20_174050.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "41275a8e6f72867b",
             "type": "leaf",
             "state": {
@@ -68,7 +55,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -152,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024/2024-04/2024-04-20/2024-04-20_174050.md"
-              }
+              "state": {}
             }
           },
           {
@@ -191,8 +176,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "63bb09d14565de89",
+  "active": "5c80ac65f4ad3276",
   "lastOpenFiles": [
+    "2024/2024-04/2024-04-20/2024-04-20_182017.md",
     "2024/2024-04/2024-04-20/2024-04-20_174050.md",
     "assets/2024-04-20_174050_IMG-2.png",
     "assets/2024-04-20_174050_IMG-1.png",
