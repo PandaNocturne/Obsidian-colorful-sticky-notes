@@ -49,7 +49,7 @@
   ],
   "pdf": "pdf",
   "oneInMany": "Default",
-  "enableAuto": true,
+  "enableAuto": false,
   "enableTime": false,
   "enablePathHash": false,
   "enableExcludeFileName": false,

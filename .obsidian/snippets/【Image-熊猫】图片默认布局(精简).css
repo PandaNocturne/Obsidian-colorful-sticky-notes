@@ -8,9 +8,7 @@
 
 /* !编辑模式 则 最大为400 */
 /* :not(.excalidraw-svg) */
-.markdown-preview-view img:not([width]):not(.code-styler-icon):not(.svelte-frmt02),
-.markdown-rendered img:not([width]):not(.code-styler-icon):not(.svelte-frmt02),
-.markdown-source-view.mod-cm6 img:not([width]):not(.code-styler-icon):not(.svelte-frmt02) {
+.view-content img:not([width]):not(.code-styler-icon):not(.svelte-frmt02) {
   max-width: 200px;
   max-height: 20vh;
 }
@@ -18,12 +16,11 @@
 /* !图片网格布局 */
 /* [2024-03-28_ObsidianCSS：Image图片网格布局-Obsidian英文论坛](obsidian://advanced-uri?vault=PandaNotes&uid=20240328010924560) */
 /* https://forum.obsidian.md/t/display-side-by-side-image-grid/9359/38 */
-.markdown-preview-section>div>p>img+br {
+.view-content>div>p>img+br {
   display: none;
 }
 
-.markdown-rendered img:not([width]):not(.code-styler-icon):not(.svelte-frmt02),
-.markdown-source-view.mod-cm6 img:not([width]):not(.code-styler-icon):not(.svelte-frmt02) {
+.view-content img:not([width]):not(.code-styler-icon):not(.svelte-frmt02) {
   margin: 4px;
   object-fit: cover;
   width: 100%;
@@ -32,7 +29,7 @@
 }
 
 /* 视频 */
-video {
+.view-content video {
   display: block;
   margin: 0 auto;
   /* 设置左右间距为自适应，上下间距为零 */
@@ -46,12 +43,12 @@ body {
   --float-snw-display: none;
 }
 
-span[alt="O"] img {
+.view-content span[alt="O"] img {
   object-fit: cover;
   border-radius: 50%;
 }
 
-span[alt="OL"] img {
+.view-content span[alt="OL"] img {
   object-fit: cover;
   border-radius: 50%;
   float: left;
@@ -61,7 +58,7 @@ span[alt="OL"] img {
   display: inline !important;
 }
 
-span[alt="OR"] img {
+.view-content span[alt="OR"] img {
   object-fit: cover;
   border-radius: 50%;
   float: left;
@@ -71,7 +68,7 @@ span[alt="OR"] img {
   display: inline !important;
 }
 
-span[alt="L"] img {
+.view-content span[alt="L"] img {
   float: left;
   text-align: left;
   margin: var(--float-left-margin);
@@ -79,7 +76,7 @@ span[alt="L"] img {
   display: inline !important;
 }
 
-span[alt="R"] img {
+.view-content span[alt="R"] img {
   float: right;
   text-align: right;
   margin: var(--float-right-margin);
@@ -88,7 +85,7 @@ span[alt="R"] img {
 }
 
 /* 独占一行 */
-span[alt="I"] img {
+span[alt="I"] .view-content img {
   float: unset;
   text-align: left;
 
@@ -100,7 +97,7 @@ span[alt="I"] img {
   display: inline !important;
 }
 
-span[alt="IR"] img {
+span[alt="IR"] .view-content img {
   float: unset;
   text-align: right;
   margin: var(--float-right-margin);

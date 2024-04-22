@@ -25,11 +25,14 @@
   "cmenu-plugin",
   "templater-obsidian",
   "obsidian42-strange-new-worlds",
-  "tray",
   "copy-url-in-preview",
   "obsidian-zoom",
   "quick-explorer",
   "nuke-orphans",
   "image-window",
-  "obsidian-markdown-export-plugin"
+  "obsidian-markdown-export-plugin",
+  "hide-folders",
+  "obsidian-reminder-plugin",
+  "tray",
+  "file-cleaner-redux"
 ]
