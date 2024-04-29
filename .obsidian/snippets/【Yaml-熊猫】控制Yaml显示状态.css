@@ -31,6 +31,7 @@ settings:
   default: true
 */
 
+/* ref: [隐藏frontmatter段的CSS代码 - 疑问解答 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/32576/2) */
 /* 阅读模式和实时模式 */
 .hide-yaml.hide-preview-yaml .markdown-preview-view.show-properties .metadata-container,
 .hide-yaml.hide-source-yaml .markdown-source-view.is-live-preview.show-properties .metadata-container {
@@ -42,4 +43,65 @@ settings:
   opacity: 0;
 }
 
-/* ref: [隐藏frontmatter段的CSS代码 - 疑问解答 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/32576/2) */
+/* =======美化======== */
+/*与编辑区顶部间距*/
+.metadata-container {
+  margin-top: -20px;
+}
+
+.hide-yaml.hide-preview-yaml {
+
+
+  /*文档属性图标*/
+  .metadata-properties-heading {
+    visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    bottom: -28px;
+  }
+
+  .metadata-properties-heading::before {
+    visibility: visible;
+    content: "";
+    /* text-align: right; */
+    display: block !important;
+    /* width: var(--file-line-width) !important; */
+    width: 100vw !important;
+  }
+
+  /*平时隐藏，悬停显示*/
+  .metadata-properties-heading:not(:hover)::before {
+    opacity: 0;
+    transition: var(--anim-duration-fast) var(--anim-duration-fast);
+  }
+
+
+  /* !常驻显示属性 */
+  .view-content .markdown-source-view.is-live-preview .metadata-container {
+    position: sticky !important;
+    width: 101% !important;
+    top: -40px;
+    left: 0px;
+    z-index: 10;
+    background-color: var(--background-primary);
+    border-bottom: 2px dashed var(--background-modifier-border);
+    font-size: medium;
+  }
+
+  .view-content .markdown-source-view.is-live-preview .metadata-container:hover {
+    border-bottom: 2px dashed var(--light-accent);
+  }
+
+  /* ! 只显示特定属性 */
+  /* ref:  [CSS 交换「折叠」和「非折叠」展示以默认折叠文档属性 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/26727/9) */
+  .view-content .markdown-source-view.is-live-preview .metadata-container .metadata-property:not( :has([aria-label="tags"]),
+    :has([aria-label="aliases"])) {
+    height: 0;
+    margin-bottom: -0.2rem;
+  }
+
+  /* 禁用添加按钮  */
+  .view-content .metadata-add-button {
+    display: none;
+  }
+}

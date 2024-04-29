@@ -55,6 +55,11 @@
       "id": "obsidian-projects:show-projects",
       "name": "Projects: 打开项目",
       "icon": "blocks"
+    },
+    {
+      "id": "quickadd:choice:d1d760b5-dda3-45dd-8cbd-cfe342a8397a",
+      "name": "QuickAdd: Macro：LinkConverter",
+      "icon": "paper-plane"
     }
   ],
   "appendMethod": "body",

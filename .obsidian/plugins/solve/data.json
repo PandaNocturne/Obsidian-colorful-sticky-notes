@@ -1,0 +1,53 @@
+{
+  "engine": {
+    "explicitMode": false
+  },
+  "interface": {
+    "renderResultEndOfLine": true,
+    "showStatusBarCompanion": true,
+    "animateResults": true,
+    "animationClass": "animate__pulse",
+    "animationDuration": "200ms"
+  },
+  "arithmeticProvider": {
+    "enabled": true,
+    "renderEqualsBeforeResult": true
+  },
+  "functionArithmeticProvider": {
+    "enabled": true
+  },
+  "vectorArithmeticProvider": {
+    "enabled": true
+  },
+  "percentageArithmeticProvider": {
+    "enabled": true
+  },
+  "datetimeProvider": {
+    "enabled": true,
+    "parsingFormat": 0
+  },
+  "unitOfMeasurementProvider": {
+    "enabled": true
+  },
+  "diceProvider": {
+    "enabled": true
+  },
+  "integerResult": {},
+  "floatResult": {
+    "decimalPlaces": 2
+  },
+  "percentageResult": {
+    "decimalPlaces": 2
+  },
+  "datetimeResult": {
+    "format": "YYYY-MM-DDTHH:mm:ssZ"
+  },
+  "hexResult": {
+    "enablePadding": false,
+    "paddingZeros": 8
+  },
+  "unitOfMeasurementResult": {
+    "decimalPlaces": 2,
+    "unitNames": false
+  }
+}

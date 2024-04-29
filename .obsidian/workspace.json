@@ -4,11 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "d413a266d1e00c30",
+        "id": "62ef548fbf87ce90",
         "type": "tabs",
         "children": [
           {
-            "id": "db04182491048c7f",
+            "id": "4ba367595a685ecb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-28_171738.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e802112b41f45b39",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-projects",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a529b759fa4358a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +40,100 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ca1ad7703ea1e825",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-27_190306 TranslucentTb.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "690651ae99a9325c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-18_185504【CSS】侧边栏自动隐藏悬浮预览.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "64b8e252b2416b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-18_183609 【CSS】Obsidian原生按钮显示.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed46d04df0bca753",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-18_183908【CSS】Project、Excalidraw的界面移动.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c981bce15d8d2a67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-18_185504【CSS】侧边栏自动隐藏悬浮预览.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff1371e8a5af2de6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-23_195519 小刀游戏记录.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfefb90d904dbcba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-04/2024-04-28_171738.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -34,11 +147,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4ef3aa001c4fc7b7",
+            "id": "d7ab0e20db78edb3",
             "type": "leaf",
             "state": {
-              "type": "file-tree-view",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -74,22 +189,12 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "d7ab0e20db78edb3",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
+    "width": 466.40000000000003,
     "collapsed": true
   },
   "right": {
@@ -100,14 +205,6 @@
         "id": "7a2621e0969a0cc5",
         "type": "tabs",
         "children": [
-          {
-            "id": "862218f588c3fb18",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
           {
             "id": "31674cb49ea41b2d",
             "type": "leaf",
@@ -135,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -144,72 +241,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hide-folders:Show hidden folders": false,
       "random-note:开始漫游笔记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
       "command-palette:打开命令面板": false,
-      "tab-selector:Open tab selector": false,
       "cmdr:Commander: 打开 Commander 设置": false,
       "obsidian-projects:Open projects": false,
-      "float-search:Search Obsidian In Modal": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "quick-tagger:Add tag to current note": false,
-      "quick-tagger:Remove tag from current note": false,
       "easy-toggle-sidebars:autoHide switcher": false,
-      "templater-obsidian:Templater": false,
-      "file-cleaner-redux:Clean files": false
+      "float-search:Search Obsidian In Modal": false
     }
   },
-  "active": "db04182491048c7f",
+  "active": "0a529b759fa4358a",
   "lastOpenFiles": [
-    "2024/2024-04/2024-04-22/2024-04-22.md",
-    "README.md",
+    "asset/README_IMG-4.gif",
     "asset/README_IMG-3.png",
     "asset/README_IMG-2.png",
     "asset/README_IMG-1.gif",
-    "assets/README_IMG-4.png",
-    "assets/README_IMG-1.gif",
+    "assets/README_IMG-4.gif",
+    "2024/2024-04/2024-04-30_001857.md",
+    "docs/【Doc】QuickAdd脚本设置.md",
+    "230_QuickNotes.md",
+    "README.md",
+    "2024/2024-04/2024-04-27_190306 TranslucentTb.md",
+    "2024/2024-04/2024-04-28_171738.md",
+    "2024/2024-04/2024-04-29_222125.md",
+    "2024/2024-04/2024-04-18_185504【CSS】侧边栏自动隐藏悬浮预览.md",
+    "2024/2024-04/2024-04-18_183609 【CSS】Obsidian原生按钮显示.md",
+    "2024/2024-04/2024-04-18_183908【CSS】Project、Excalidraw的界面移动.md",
+    "2024/2024-04/2024-04-23_195519 小刀游戏记录.md",
+    "2024/2024-04/2024-04-30_002650.md",
+    "2024/2024-04/2024-04-30_005750.md",
+    "2024/2024-04-20.md",
+    "2024/2024-04/2024-04-30/2024-04-30_001857.md",
+    "2024/2024-04-29.md",
+    "2024/2024-04-28.md",
+    "2024/2024-04-27.md",
+    "2024/2024-04-26.md",
+    "2024/2024-04-24.md",
+    "2024/2024-04-23.md",
+    "2024/2024-04-22.md",
+    "2024/2024-04-21.md",
+    "2024/2024-04-19.md",
+    "2024/2024-04-18.md",
+    "assets/2024-04-30_001857_IMG-3.jpg",
+    "assets/2024-04-30_001857_IMG-2.jpg",
+    "assets/2024-04-30_001857_IMG-1.jpg",
+    "assets/e358ceb3cbda46d1cbb47992912805f0.jpg",
+    "assets/2024-04-29_222125_IMG-1.jpg",
+    "2024/2024-04/2024-04-30",
+    "2024/2024-04/2024-04-29",
+    "2024/2024-04/2024-04-28",
+    "assets/2024-04-27_185831_IMG-1.png",
+    "2024/2024-04/2024-04-27",
+    "2024/2024-04/2024-04-26",
+    "2024/2024-04/2024-04-24",
+    "config/2024-04-23_LinkConverter.js",
+    "2024/2024-04/2024-04-23",
     "2024/2024-04/2024-04-22",
-    "2024/2024-04/2024-04-21/2024-04-21.md",
     "2024/2024-04/2024-04-21",
-    "2024/2024-04/2024-04-21/2024-04-21_020719.md",
-    "2024/2024-04/2024-04-20/2024-04-20.md",
-    "2024/2024-04/2024-04-20/2024-04-20_182302.md",
-    "2024/2024-04/2024-04-20/2024-04-20_182301.md",
-    "2024/2024-04/2024-04-20/2024-04-20_182017.md",
-    "2024/2024-04/2024-04-20/2024-04-20_174050.md",
-    "assets/2024-04-20_174050_IMG-2.png",
-    "assets/2024-04-20_174050_IMG-1.png",
-    "Assets/2024-04-20_174050_IMG-2.png",
-    "Assets/2024-04-20_174050_IMG-1.png",
-    "2024/2024-04/2024-04-20/2024-04-20_171237.md",
-    "2024/2024-04/2024-04-20/2024-04-20_162055 Thino Capture.md",
-    "assets/2024-04-20_162055 Thino Capture_Video-1.mp4",
-    "Assets/2024-04-20_162055 Thino Capture_Video-1.mp4",
-    "2024/2024-04/2024-04-20/2024-04-20_161753 版本自动备份.md",
-    "assets/2024-04-20_161753 版本自动备份_IMG-1.png",
-    "2024/2024-04/2024-04-20/2024-04-20_161337 Obsidian文件夹则折叠 by Moy.md",
-    "2024/2024-04/2024-04-18/2024-04-18.md",
-    "2024/2024-04/2024-04-20",
-    "2024/2024-04/2024-04-18/2024-04-18_182059.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072301.md",
-    "2024/2024-04/2024-04-16/2024-04-16.md",
-    "2024/2024-04/2024-04-17/2024-04-17.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072258.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072250.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072245.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072120.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072049.md",
-    "2024/2024-04/2024-04-18/2024-04-18_072104.md",
-    "2024/2024-04/2024-04-18/2024-04-18_071807.md",
-    "2024/2024-04/2024-04-18/2024-04-18_055842.md",
-    "2024-04/2024-04-18",
-    "2024-04",
-    "2024/2024-04/2024-04-16",
-    "2024/2024-04/2024-04-17",
-    "2024/2024-04/2024-04-18",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",

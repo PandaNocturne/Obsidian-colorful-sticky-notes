@@ -43,28 +43,9 @@
       "mode": "any"
     },
     {
-      "id": "daily-notes",
-      "icon": "lucide-calendar-days",
-      "name": "日记: 打开/创建今天的日记",
-      "mode": "any"
-    },
-    {
       "id": "quick-explorer:go-next",
       "icon": "arrow-right-circle",
       "name": "Quick Explorer: Go to next file in folder",
-      "mode": "any"
-    },
-    {
-      "id": "workspace:toggle-stacked-tabs",
-      "icon": "lucide-layers",
-      "name": "堆叠/取消堆叠标签页",
-      "mode": "any",
-      "color": "#000000"
-    },
-    {
-      "id": "quickadd:choice:e9c08fd5-4b2c-4159-ae30-98de201f419a",
-      "icon": "airplay",
-      "name": "QuickAdd: Multi：快速命令",
       "mode": "any"
     },
     {
@@ -90,6 +71,18 @@
       "id": "workspace:close-tab-group",
       "icon": "lucide-x",
       "name": "关闭此标签页分组",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-projects:show-projects",
+      "icon": "airplay",
+      "name": "Projects: 打开项目",
+      "mode": "any"
+    },
+    {
+      "id": "quickadd:choice:79b762e8-28b6-45b4-87ad-b85ad090f21f",
+      "icon": "activity",
+      "name": "QuickAdd: Capture：RebuildView",
       "mode": "any"
     }
   ],

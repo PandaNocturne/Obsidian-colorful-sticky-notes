@@ -2,13 +2,13 @@
  * @Author: 熊猫别熬夜 
  * @Date: 2024-03-27 11:51:21 
  * @Last Modified by: 熊猫别熬夜
- * @Last Modified time: 2024-04-01 12:44:16
+ * @Last Modified time: 2024-04-23 17:27:14
  */
 const path = require('path');
 const quickAddApi = app.plugins.plugins.quickadd.api;
 module.exports = async (params) => {
   let file = app.workspace.getActiveFile();
-  if (app.workspace.activeEditor) {
+  try {
     const editor = app.workspace.activeEditor.editor;
     // 选择所在的一行
     const line = editor.getLine(editor.getCursor().line);
@@ -44,9 +44,14 @@ module.exports = async (params) => {
         newName = await quickAddApi.inputPrompt(`🗳重命名嵌入的${path.extname(wikiPath)}文件`, null, path.basename(wikiPath).replace(path.extname(wikiPath), ""), "");
       }
       if (!newName) return;
+      // 2024-04-23_17:16:53 优化一下，合并多余空格
+      newName = newName.replace(/\s+/g, " ");
       await app.fileManager.renameFile(app.vault.getAbstractFileByPath(wikiPath), `${path.dirname(wikiPath)}/${newName}${path.extname(wikiPath)}`);
       return;
     };
+  } catch (error) {
+    // 如果报错则跳过
+    console.log(error);
   }
   // !最终重命名文件
   let newName = "";
@@ -58,6 +63,8 @@ module.exports = async (params) => {
     newName = await quickAddApi.inputPrompt('📄重命名当前文档', null, String(file.basename));
     if (!newName) return;
   }
+  // 2024-04-23_17:16:53 优化一下，合并多余空格
+  newName = newName.replace(/\s+/g, " ");
   await app.fileManager.renameFile(file, `${file.parent.path}/${newName}.${file.extension}`);
   return;
 };

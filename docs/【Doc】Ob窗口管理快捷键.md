@@ -1,6 +1,5 @@
 ---
 title: 【Doc】Ob窗口管理快捷键
-tags: [QuickNote]
 cssclasses: []
 date: 2024-04-16
 created: 2024-04-16 15:05:38

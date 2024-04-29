@@ -7,6 +7,13 @@
       "command": false,
       "choices": [
         {
+          "id": "d7e8f163-1b4e-4bbb-bfa7-e5510c93e3bc",
+          "name": "Macro：相邻窗口打开笔记 (InsertLink)",
+          "type": "Macro",
+          "command": true,
+          "macroId": "a475bdbf-ab19-4d48-af39-681381a8ff80"
+        },
+        {
           "id": "319c3c27-8a26-484f-ab58-7817d3253613",
           "name": "Template：QuickNote (InsertLink)",
           "type": "Template",
@@ -14,7 +21,7 @@
           "templatePath": "config/【Template】便笺卡片.md",
           "fileNameFormat": {
             "enabled": true,
-            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD/YYYY-MM-DD_HHmmss}}"
+            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD_HHmmss}}"
           },
           "folder": {
             "enabled": false,
@@ -42,7 +49,7 @@
           "templatePath": "config/【Template】便笺卡片.md",
           "fileNameFormat": {
             "enabled": true,
-            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD/YYYY-MM-DD_HHmmss}}"
+            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD_HHmmss}}"
           },
           "folder": {
             "enabled": false,
@@ -91,13 +98,6 @@
           "type": "Macro",
           "command": true,
           "macroId": "0ca0d48a-e692-461c-9359-2dd3a3e3a248"
-        },
-        {
-          "id": "d7e8f163-1b4e-4bbb-bfa7-e5510c93e3bc",
-          "name": "Macro：相邻窗口打开笔记 (InsertLink)",
-          "type": "Macro",
-          "command": true,
-          "macroId": "a475bdbf-ab19-4d48-af39-681381a8ff80"
         },
         {
           "id": "c093d217-cc3e-4941-993b-36d35255014c",
@@ -281,7 +281,49 @@
           "macroId": "7916c9f8-4378-4a77-a766-38c437f5d9ca"
         }
       ],
-      "collapsed": false
+      "collapsed": true
+    },
+    {
+      "id": "d1d760b5-dda3-45dd-8cbd-cfe342a8397a",
+      "name": "Macro：LinkConverter",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d2d1cd19-417b-419a-95b9-b26c21a2540a"
+    },
+    {
+      "id": "79b762e8-28b6-45b4-87ad-b85ad090f21f",
+      "name": "Capture：RebuildView",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "```js quickadd\nawait app.workspace.activeLeaf.rebuildView()\n```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -369,13 +411,19 @@
           "name": "Wait",
           "type": "Wait",
           "id": "c3e7f31a-aa8f-443a-8c56-e1f3beea6f12",
-          "time": 500
+          "time": 100
         },
         {
           "name": "Linter: 格式化当前文件",
           "type": "Obsidian",
           "id": "d5f0b7cd-f466-4905-85e0-bd030b75a09f",
           "commandId": "obsidian-linter:lint-file"
+        },
+        {
+          "name": "Attachment Name Formatting: Rescan Attachments in Current File",
+          "type": "Obsidian",
+          "id": "6eb8c926-6a50-47d3-91b6-17c1d6636e26",
+          "commandId": "obsidian-attachment-name-formatting:attachments-rescan-command"
         }
       ],
       "runOnStartup": false
@@ -506,6 +554,20 @@
           "type": "Obsidian",
           "id": "da7004ec-7cb3-4249-8b5d-b1e0ef9cd90a",
           "commandId": "cmdr:open-commander-settings"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：LinkConverter",
+      "id": "d2d1cd19-417b-419a-95b9-b26c21a2540a",
+      "commands": [
+        {
+          "name": "2024-04-23_LinkConverter",
+          "type": "UserScript",
+          "id": "1a2f5316-72c8-4fe4-8618-9aa939aa90f2",
+          "path": "config/2024-04-23_LinkConverter.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false

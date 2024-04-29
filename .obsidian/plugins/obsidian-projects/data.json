@@ -21,14 +21,21 @@
         {
           "config": {
             "coverField": "banner",
-            "fitStyle": "contain",
+            "fitStyle": "cover",
             "cardWidth": 200,
             "includeFields": [
               "aliases"
             ]
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "QuickNote"
+              }
+            ]
           },
           "colors": {
             "conditions": [
@@ -85,11 +92,12 @@
               "date",
               "modified",
               "tags",
-              "title"
+              "title",
+              "uid"
             ],
             "fieldConfig": {
               "name": {
-                "width": 241
+                "width": 371
               },
               "aliases": {
                 "hide": true
@@ -101,18 +109,35 @@
                 "hide": true
               },
               "cssclasses": {
-                "width": 120
+                "width": 120,
+                "hide": true
               },
               "modified": {
                 "hide": true
               },
               "date": {
                 "width": 120
+              },
+              "path": {
+                "hide": true
+              },
+              "title": {
+                "width": 259
+              },
+              "uid": {
+                "hide": true
               }
             }
           },
           "filter": {
-            "conditions": []
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "QuickNote"
+              }
+            ]
           },
           "colors": {
             "conditions": []
@@ -196,6 +221,91 @@
       ],
       "id": "7893e405-90ec-4442-9cc5-ba310cffc2a4",
       "name": "根目录"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "docs",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "cardWidth": 200,
+            "coverField": "banner",
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "85f515b8-c167-494d-b66f-0294e980afa7",
+          "name": "画册",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "banner": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "cssclasses": {
+                "hide": true
+              },
+              "date": {
+                "hide": true
+              },
+              "modified": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "banner",
+              "created",
+              "cssclasses",
+              "date",
+              "modified",
+              "tags",
+              "title"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "008a3599-72fc-49d7-9e97-cd96e6fdb594",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "a2991572-9af8-48fa-86db-5726c64b2f01",
+      "name": "【Doc】"
     }
   ],
   "archives": [],

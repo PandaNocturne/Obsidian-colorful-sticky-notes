@@ -1,7 +1,7 @@
 /* !阅读和编辑模式下边框间距的调整 */
 .view-content>.markdown-source-view.mod-cm6>.cm-editor>.cm-scroller,
 .markdown-preview-view {
-	padding-top: 0px;
+	/* padding-top: 0px; */
 	padding-bottom: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -64,13 +64,16 @@ div.view-header>div.clickable-icon.view-header-icon::after {
 .inline-title {
 	-webkit-app-region: drag;
 	font-size: 12px;
+	font-style: italic;
 	position: sticky !important;
 	top: 0px;
 	text-align: right;
 	opacity: 0.8;
 	pointer-events: none;
+	margin-top: -40px;
 	margin-bottom: 0px;
 	margin-right: 0px;
+	z-index: 1000 !important;
 }
 
 /*! 适配Commander插件 */

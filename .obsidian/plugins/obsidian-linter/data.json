@@ -1,7 +1,7 @@
 {
   "ruleConfigs": {
     "add-blank-line-after-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "dedupe-yaml-array-values": {
       "enabled": true,
@@ -22,7 +22,7 @@
       "enabled": true
     },
     "format-yaml-array": {
-      "enabled": false,
+      "enabled": true,
       "alias-key": true,
       "tag-key": true,
       "default-array-style": "single-line",
@@ -32,11 +32,11 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "title: \naliases: \ntags: "
+      "text-to-insert": "title:\naliases:\ntags: "
     },
     "move-tags-to-yaml": {
-      "enabled": false,
-      "how-to-handle-existing-tags": "Nothing",
+      "enabled": true,
+      "how-to-handle-existing-tags": "Remove whole tag",
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
@@ -44,7 +44,7 @@
       "yaml-keys-to-remove": ""
     },
     "sort-yaml-array-values": {
-      "enabled": false,
+      "enabled": true,
       "sort-alias-key": true,
       "sort-tag-key": true,
       "sort-array-keys": true,
@@ -73,7 +73,7 @@
     },
     "yaml-title-alias": {
       "enabled": true,
-      "preserve-existing-alias-section-style": true,
+      "preserve-existing-alias-section-style": false,
       "keep-alias-that-matches-the-filename": false,
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": false
     },
@@ -230,8 +230,8 @@
       "enabled": true
     },
     "trailing-spaces": {
-      "enabled": false,
-      "twp-space-line-break": false
+      "enabled": true,
+      "twp-space-line-break": true
     },
     "add-blockquote-indentation-on-paste": {
       "enabled": true

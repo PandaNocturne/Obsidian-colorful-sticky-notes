@@ -1,5 +1,5 @@
 {
-  "autorun": true,
+  "autorun": false,
   "format": "YYYY/YYYY-MM/YYYY-MM-DD/YYYY-MM-DD",
   "template": "config/【Template】每日日记"
 }

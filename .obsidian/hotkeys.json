@@ -288,14 +288,6 @@
       "key": "N"
     }
   ],
-  "quickadd:runQuickAdd": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "K"
-    }
-  ],
   "obsidian-zoom:zoom-in": [
     {
       "modifiers": [
@@ -320,6 +312,14 @@
         "Mod"
       ],
       "key": "W"
+    }
+  ],
+  "quickadd:choice:d7e8f163-1b4e-4bbb-bfa7-e5510c93e3bc": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "K"
     }
   ]
 }

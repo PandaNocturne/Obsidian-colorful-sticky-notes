@@ -1,6 +1,6 @@
 ---
+aliases: 
 cssclasses:
   - YellowNote
-tags:
-  - QuickNote
+tags: []
 ---

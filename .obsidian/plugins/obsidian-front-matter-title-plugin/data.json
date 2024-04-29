@@ -110,10 +110,10 @@
     },
     "noteLink": {
       "enabled": false,
-      "strategy": "onlyEmpty",
-      "approval": true,
+      "strategy": "all",
+      "approval": false,
       "templates": {
-        "main": "",
+        "main": "title",
         "fallback": ""
       }
     }
