@@ -8,6 +8,8 @@ date: 2024-04-16
 modified: 2024-04-23 16:51:00
 created: 2024-04-16 18:54:25
 banner: "[README_IMG-1](asset/README_IMG-1.gif)"
+aliases:
+  - Obsidian多彩便笺文档说明
 ---
 
 ![README_IMG-1](./asset/README_IMG-1.gif)
@@ -33,7 +35,7 @@ banner: "[README_IMG-1](asset/README_IMG-1.gif)"
 
 ## 介绍文档
 
-![docs](docs/docs.md)
+![docs](./docs/docs.md)
 
 ## ChangeLog
 
