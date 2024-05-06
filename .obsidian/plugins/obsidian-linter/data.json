@@ -1,7 +1,7 @@
 {
   "ruleConfigs": {
     "add-blank-line-after-yaml": {
-      "enabled": true
+      "enabled": false
     },
     "dedupe-yaml-array-values": {
       "enabled": true,
@@ -32,10 +32,10 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "title:\naliases:\ntags: "
+      "text-to-insert": "uid:\ntitle:\naliases:\ntags:\nstate:\npriority:\ncssclasses:\ncreated:\nmodified:"
     },
     "move-tags-to-yaml": {
-      "enabled": true,
+      "enabled": false,
       "how-to-handle-existing-tags": "Remove whole tag",
       "tags-to-ignore": ""
     },
@@ -54,7 +54,7 @@
     "yaml-key-sort": {
       "enabled": false,
       "yaml-key-priority-sort-order": "",
-      "priority-keys-at-start-of-yaml": true,
+      "priority-keys-at-start-of-yaml": false,
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
@@ -73,7 +73,7 @@
     },
     "yaml-title-alias": {
       "enabled": true,
-      "preserve-existing-alias-section-style": false,
+      "preserve-existing-alias-section-style": true,
       "keep-alias-that-matches-the-filename": false,
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": false
     },
@@ -277,7 +277,7 @@
     }
   ],
   "commonStyles": {
-    "aliasArrayStyle": "single-line",
+    "aliasArrayStyle": "multi-line",
     "tagArrayStyle": "single-line",
     "minimumNumberOfDollarSignsToBeAMathBlock": 2,
     "escapeCharacter": "\"",

@@ -37,6 +37,12 @@
       "mode": "any"
     },
     {
+      "id": "quickadd:choice:79b762e8-28b6-45b4-87ad-b85ad090f21f",
+      "icon": "activity",
+      "name": "QuickAdd: Capture：RebuildView",
+      "mode": "any"
+    },
+    {
       "id": "quick-explorer:go-prev",
       "icon": "arrow-left-circle",
       "name": "Quick Explorer: Go to previous file in folder",
@@ -71,18 +77,6 @@
       "id": "workspace:close-tab-group",
       "icon": "lucide-x",
       "name": "关闭此标签页分组",
-      "mode": "any"
-    },
-    {
-      "id": "obsidian-projects:show-projects",
-      "icon": "airplay",
-      "name": "Projects: 打开项目",
-      "mode": "any"
-    },
-    {
-      "id": "quickadd:choice:79b762e8-28b6-45b4-87ad-b85ad090f21f",
-      "icon": "activity",
-      "name": "QuickAdd: Capture：RebuildView",
       "mode": "any"
     }
   ],

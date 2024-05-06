@@ -2,7 +2,17 @@
   "version": 2,
   "projects": [
     {
-      "fieldConfig": {},
+      "fieldConfig": {
+        "state": {
+          "options": [
+            "Idea",
+            "Drafting",
+            "Final",
+            "Archived",
+            "Cancelled"
+          ]
+        }
+      },
       "defaultName": "{{date:YYYY-MM-DD}}_{{time:HHmmss}}",
       "templates": [
         "config/【Template】便笺卡片.md"
@@ -18,6 +28,23 @@
       },
       "newNotesFolder": "2024",
       "views": [
+        {
+          "config": {
+            "interval": "2weeks"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "96460b67-cb8f-4669-afed-cf2498444ac5",
+          "name": "日历",
+          "type": "calendar"
+        },
         {
           "config": {
             "coverField": "banner",
@@ -62,92 +89,6 @@
           "id": "a05f264d-06bd-41b0-8ea9-a11ca04a7348",
           "name": "画册",
           "type": "gallery"
-        },
-        {
-          "config": {
-            "interval": "2weeks"
-          },
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "96460b67-cb8f-4669-afed-cf2498444ac5",
-          "name": "日历",
-          "type": "calendar"
-        },
-        {
-          "config": {
-            "orderFields": [
-              "name",
-              "path",
-              "aliases",
-              "banner",
-              "created",
-              "cssclasses",
-              "date",
-              "modified",
-              "tags",
-              "title",
-              "uid"
-            ],
-            "fieldConfig": {
-              "name": {
-                "width": 371
-              },
-              "aliases": {
-                "hide": true
-              },
-              "banner": {
-                "hide": true
-              },
-              "created": {
-                "hide": true
-              },
-              "cssclasses": {
-                "width": 120,
-                "hide": true
-              },
-              "modified": {
-                "hide": true
-              },
-              "date": {
-                "width": 120
-              },
-              "path": {
-                "hide": true
-              },
-              "title": {
-                "width": 259
-              },
-              "uid": {
-                "hide": true
-              }
-            }
-          },
-          "filter": {
-            "conditions": [
-              {
-                "field": "name",
-                "operator": "not-contains",
-                "enabled": true,
-                "value": "QuickNote"
-              }
-            ]
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "d5ff1b06-8e68-4fe9-b2ab-03e8542024c6",
-          "name": "表格",
-          "type": "table"
         }
       ],
       "id": "fa820947-fcff-44a1-a95d-c34c65d65334",

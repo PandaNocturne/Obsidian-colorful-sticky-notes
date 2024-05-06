@@ -77,11 +77,11 @@ body>div.app-container>div.status-bar>div.status-bar-item.plugin-various-complem
 }
 
 /* !插件：dateview */
-.block-language-dataviewjs,
+/* .block-language-dataviewjs,
 .block-language-dataview {
   max-height: 500px;
   overflow: auto;
-}
+} */
 
 
 /* ! better view */
@@ -139,4 +139,16 @@ body>div.app-container>div.status-bar>div.status-bar-item.plugin-hide-folders {
 /* div.view-header>div.view-actions>a:nth-last-child(1), */
 div.view-header>div.view-actions>a:nth-last-child(2) {
   display: none;
+}
+
+/* !Note Gallery */
+/* Source:  [新的 Gallery 插件 Note Gallery,配合 css 可替代 Dataview Cards 视图-经验分享- Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/28673)*/
+
+
+.card-content img{
+  max-width:100% !important;
+}
+.card-content p, .card-content h1, .card-content h2{
+  margin-top: 0;
+  margin-bottom: 0;
 }

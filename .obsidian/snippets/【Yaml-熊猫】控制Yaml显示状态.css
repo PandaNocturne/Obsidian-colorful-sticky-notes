@@ -51,7 +51,6 @@ settings:
 
 .hide-yaml.hide-preview-yaml {
 
-
   /*文档属性图标*/
   .metadata-properties-heading {
     visibility: hidden;
@@ -89,19 +88,26 @@ settings:
   }
 
   .view-content .markdown-source-view.is-live-preview .metadata-container:hover {
-    border-bottom: 2px dashed var(--light-accent);
+    border-bottom: 2px dashed #3fc570;
   }
 
   /* ! 只显示特定属性 */
   /* ref:  [CSS 交换「折叠」和「非折叠」展示以默认折叠文档属性 - 经验分享 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/26727/9) */
+  /*添加文档属性时系统会自动取消折叠，对此进行处理*/
+  /* .metadata-container:not(.is-collapsed, .view-content > .metadata-container):is(.metadata-properties, .metadata-property):not(:has([placeholder="没有值"]:empty), :hover) {
+    height: 0;
+  } */
+
   .view-content .markdown-source-view.is-live-preview .metadata-container .metadata-property:not( :has([aria-label="tags"]),
-    :has([aria-label="aliases"])) {
+    :has([aria-label="aliases"]),
+    :has([aria-label="task"]),
+    :has([aria-label="state"])) {
     height: 0;
     margin-bottom: -0.2rem;
   }
 
   /* 禁用添加按钮  */
-  .view-content .metadata-add-button {
+  .view-content .markdown-source-view.is-live-preview .metadata-add-button {
     display: none;
   }
 }

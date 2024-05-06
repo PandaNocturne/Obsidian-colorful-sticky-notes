@@ -324,6 +324,13 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "04b186e4-530e-491d-ba20-644537b37e6f",
+      "name": "Macro：TaskEditor",
+      "type": "Macro",
+      "command": true,
+      "macroId": "87764a83-b812-4a1c-97d6-811fa16b75c8"
     }
   ],
   "macros": [
@@ -568,6 +575,24 @@
           "id": "1a2f5316-72c8-4fe4-8618-9aa939aa90f2",
           "path": "config/2024-04-23_LinkConverter.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Macro：TaskEditor",
+      "id": "87764a83-b812-4a1c-97d6-811fa16b75c8",
+      "commands": [
+        {
+          "name": "2024-04-30_EditorOrCreatTask",
+          "type": "UserScript",
+          "id": "12b8bd45-ffb2-4d56-883b-6789fe2959b7",
+          "path": "config/2024-04-30_EditorOrCreatTask.js",
+          "settings": {
+            "Tag": "",
+            "AutoCreatedDate": true,
+            "AutoTime": true
+          }
         }
       ],
       "runOnStartup": false

@@ -29,7 +29,10 @@
     "【分栏-熊猫】minimal-Cards",
     "【Image-熊猫】图片默认布局(精简)",
     "【Theme-Soloing】主题配色",
-    "【界面-熊猫】便笺界面元素调整"
+    "【界面-熊猫】便笺界面元素调整",
+    "【Plugin-Task】tasksCalendar",
+    "【界面-熊猫】缩减笔记下方空白大小",
+    "【Plugin-ModalForm】TaskEditor"
   ],
   "baseFontSizeAction": true,
   "nativeMenus": false,
