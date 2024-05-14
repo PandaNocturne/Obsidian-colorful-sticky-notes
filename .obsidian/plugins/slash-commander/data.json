@@ -1,0 +1,118 @@
+{
+  "confirmDeletion": false,
+  "showDescriptions": true,
+  "showSourcesForDuplicates": true,
+  "debug": false,
+  "mainTrigger": "/",
+  "extraTriggers": [],
+  "useExtraTriggers": false,
+  "triggerOnlyOnNewLine": false,
+  "queryPattern": {},
+  "bindings": [
+    {
+      "name": "Table",
+      "id": "editor:insert-table",
+      "icon": "table-2",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Callout",
+      "id": "editor:insert-callout",
+      "icon": "indent",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Code",
+      "id": "editor:insert-codeblock",
+      "icon": "terminal",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Math",
+      "id": "editor:insert-mathblock",
+      "icon": "percent",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Embed",
+      "id": "editor:insert-embed",
+      "icon": "sticky-note",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Attachment",
+      "id": "editor:attach-file",
+      "icon": "paperclip",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Admonition",
+      "id": "obsidian-admonition:insert-admonition",
+      "icon": "indent",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Excalidraw",
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+      "icon": "image",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Task",
+      "id": "obsidian-tasks-plugin:edit-task",
+      "icon": "check-circle",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Template",
+      "id": "templater-obsidian:insert-templater",
+      "icon": "book-copy",
+      "mode": "any",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "name": "Citation",
+      "id": "zotlit:insert-markdown-citation",
+      "icon": "book-marked",
+      "mode": "desktop",
+      "triggerMode": "anywhere",
+      "chosen": false,
+      "selected": false
+    },
+    {
+      "id": "quickadd:choice:d7e8f163-1b4e-4bbb-bfa7-e5510c93e3bc",
+      "icon": "sticky-note",
+      "name": "QuickAdd: Macro：相邻窗口打开笔记 (InsertLink)",
+      "mode": "any"
+    }
+  ]
+}

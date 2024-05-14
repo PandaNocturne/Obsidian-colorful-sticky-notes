@@ -13,7 +13,7 @@
   "templates": false,
   "note-composer": false,
   "command-palette": true,
-  "slash-command": true,
+  "slash-command": false,
   "editor-status": true,
   "bookmarks": false,
   "markdown-importer": false,

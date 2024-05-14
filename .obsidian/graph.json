@@ -1,9 +1,9 @@
 {
   "collapse-filter": false,
   "search": "path:2024/2024-04  ",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [],
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.4444444306957624,
+  "scale": 1.0804734072645996,
   "close": true
 }

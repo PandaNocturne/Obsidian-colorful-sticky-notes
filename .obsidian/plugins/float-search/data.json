@@ -1,11 +1,11 @@
 {
   "searchViewState": {
-    "query": "",
+    "query": "风风推荐",
     "matchingCase": false,
     "explainSearch": false,
     "collapseAll": false,
-    "extraContext": false,
+    "extraContext": true,
     "sortOrder": "alphabetical"
   },
-  "showFilePath": false
+  "showFilePath": true
 }

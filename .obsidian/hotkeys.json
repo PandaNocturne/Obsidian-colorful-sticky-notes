@@ -330,5 +330,13 @@
       ],
       "key": "K"
     }
+  ],
+  "editor:insert-table": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }

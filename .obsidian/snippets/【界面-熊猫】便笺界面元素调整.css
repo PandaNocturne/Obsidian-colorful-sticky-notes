@@ -61,29 +61,28 @@ div.view-header>div.clickable-icon.view-header-icon::after {
 }
 
 /* !页面标题设置-添加可拖动设置 */
+/* 2024-05-15_03-04 FixBug card-gallery 显示冲突*/
+.card-gallery .inline-title {
+	position: unset !important;
+}
+
 .inline-title {
 	-webkit-app-region: drag;
-	font-size: 12px;
-	font-style: italic;
-	position: sticky !important;
-	top: 0px;
-	text-align: right;
+	font-size: smaller;
+	position: fixed !important;
+	top: 40px !important;
+	right: 10px;
+	text-align: end;
 	opacity: 0.8;
 	pointer-events: none;
-	margin-top: -40px;
-	margin-bottom: 0px;
-	margin-right: 0px;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: 0;
 	z-index: 1000 !important;
 }
 
 /*! 适配Commander插件 */
 /* 删除添加按钮，鼠标右键就可以自己添 */
 .cmdr-adder {
-	display: none;
-}
-
-/* 删除阅读模式切换按钮 */
-/* div.view-header>div.view-actions>a:nth-last-child(1), */
-div.view-header>div.view-actions>a:nth-last-child(2) {
 	display: none;
 }

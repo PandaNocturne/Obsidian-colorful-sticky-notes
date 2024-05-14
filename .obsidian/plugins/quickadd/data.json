@@ -49,7 +49,7 @@
           "templatePath": "config/【Template】便笺卡片.md",
           "fileNameFormat": {
             "enabled": true,
-            "format": "{{DATE:YYYY/YYYY-MM/YYYY-MM-DD_HHmmss}}"
+            "format": "{{DATE:YYYY/YYYY-MM/【便笺】YYYY-MM-DD dddd  HH时mm分ss秒}}"
           },
           "folder": {
             "enabled": false,
@@ -76,7 +76,7 @@
       "id": "6c97c59c-1815-407c-b06a-0e97fe516fc5",
       "name": "Multi：窗口管理",
       "type": "Multi",
-      "command": false,
+      "command": true,
       "choices": [
         {
           "id": "2823a5ea-8698-4aa7-9914-366825f77487",
@@ -86,88 +86,11 @@
           "macroId": "fc018ca2-843e-4f91-a28c-811a7a06f44c"
         },
         {
-          "id": "7053b559-b090-4d82-93eb-68d7df96e560",
-          "name": "Macro：新标签页打开",
-          "type": "Macro",
-          "command": true,
-          "macroId": "a3c4a820-ce9c-413b-8e99-253761b08964"
-        },
-        {
           "id": "af61fa20-9011-45e2-a213-da67bcca57c6",
           "name": "Macro：相邻窗口打开笔记",
           "type": "Macro",
           "command": true,
           "macroId": "0ca0d48a-e692-461c-9359-2dd3a3e3a248"
-        },
-        {
-          "id": "c093d217-cc3e-4941-993b-36d35255014c",
-          "name": "Capture：设置当前窗口大小",
-          "type": "Capture",
-          "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "```js quickadd\n// 获取显示器的宽度和高度\nvar screenWidth = window.screen.width;\nvar screenHeight = window.screen.height;\n\n// 设置窗口的宽度和高度\nvar windowWidth = 400; // 设置窗口的宽度\nvar windowHeight = 450; // 设置窗口的高度\n\n// 计算窗口左上角的坐标，使其位于显示器中央\nvar windowLeft = (screenWidth - windowWidth) / 2;\nvar windowTop = (screenHeight - windowHeight) / 2;\n\n// 设置窗口的位置和大小\nactiveWindow.resizeTo(windowWidth , windowHeight ); // 调整窗口大小为宽度，高度\nactiveWindow.moveTo(windowLeft, windowTop);\n```"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
-        },
-        {
-          "id": "d83d1d79-e4f2-469a-9fbf-a3e66baf934e",
-          "name": "Capture：移动主窗口至屏幕中间",
-          "type": "Capture",
-          "command": false,
-          "appendLink": false,
-          "captureTo": "",
-          "captureToActiveFile": true,
-          "createFileIfItDoesntExist": {
-            "enabled": false,
-            "createWithTemplate": false,
-            "template": ""
-          },
-          "format": {
-            "enabled": true,
-            "format": "```js quickadd\n// 获取显示器的宽度和高度\nvar screenWidth = window.screen.width;\nvar screenHeight = window.screen.height;\n\n// 设置窗口的宽度和高度\nvar windowWidth = window.outerWidth;; // 窗口的宽度\nvar windowHeight = window.outerHeight; // 窗口的高度\n\n// 计算窗口左上角的坐标，使其位于显示器中央\nvar windowLeft = (screenWidth - windowWidth) / 2;\nvar windowTop = (screenHeight - windowHeight) / 2;\n\n// 设置窗口的位置和大小\nactiveWindow.resizeTo(windowWidth , windowHeight ); // 调整窗口大小为宽度，高度\nactiveWindow.moveTo(windowLeft, windowTop);\n```"
-          },
-          "insertAfter": {
-            "enabled": false,
-            "after": "",
-            "insertAtEnd": false,
-            "considerSubsections": false,
-            "createIfNotFound": false,
-            "createIfNotFoundLocation": "top"
-          },
-          "prepend": false,
-          "task": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default"
         }
       ],
       "collapsed": false
@@ -193,7 +116,7 @@
           "macroId": "ed8ba278-78e5-4328-9be8-daabcf25be69"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "5f5e3d00-ca9e-44a6-a7ec-a42cc960d4fa",
@@ -281,7 +204,7 @@
           "macroId": "7916c9f8-4378-4a77-a766-38c437f5d9ca"
         }
       ],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "d1d760b5-dda3-45dd-8cbd-cfe342a8397a",
@@ -331,6 +254,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "87764a83-b812-4a1c-97d6-811fa16b75c8"
+    },
+    {
+      "id": "de142833-bb1f-4e59-bfea-bdbcbb5d4d14",
+      "name": "Macro：主页",
+      "type": "Macro",
+      "command": false,
+      "macroId": ""
     }
   ],
   "macros": [
@@ -353,16 +283,11 @@
       "id": "ed8ba278-78e5-4328-9be8-daabcf25be69",
       "commands": [
         {
-          "name": "删除当前文件",
-          "type": "Obsidian",
-          "id": "dc61f4f4-d5a0-4fe4-ad45-a1c5b938bf02",
-          "commandId": "app:delete-file"
-        },
-        {
-          "name": "关闭当前标签页",
-          "type": "Obsidian",
-          "id": "9a1a4480-4d9c-43ac-9974-116809919559",
-          "commandId": "workspace:close"
+          "name": "2024-05-15_删除并关闭文档",
+          "type": "UserScript",
+          "id": "3287a6f6-c34d-4dc3-86ee-f677acda0937",
+          "path": "config/2024-05-15_删除并关闭文档.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false
@@ -437,50 +362,20 @@
     },
     {
       "name": "Macro：新窗口建立笔记",
-      "id": "a3c4a820-ce9c-413b-8e99-253761b08964",
-      "commands": [
-        {
-          "name": "新标签页",
-          "type": "Obsidian",
-          "id": "7f39762c-1f96-41c0-aec6-a936b59de7c8",
-          "commandId": "workspace:new-tab"
-        },
-        {
-          "name": "Wait",
-          "type": "Wait",
-          "id": "6925b9d1-1736-4938-95ba-f7a71be99bc0",
-          "time": 100
-        },
-        {
-          "name": "Another Quick Switcher: Recent search",
-          "type": "Obsidian",
-          "id": "7acb7050-67f2-4e8f-92d0-c8aa4fa94820",
-          "commandId": "obsidian-another-quick-switcher:search-command_recent-search"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Macro：新窗口建立笔记",
       "id": "fc018ca2-843e-4f91-a28c-811a7a06f44c",
       "commands": [
-        {
-          "name": "在新窗口中打开当前面板",
-          "type": "Obsidian",
-          "id": "3a98a52b-14d3-426a-bd0f-ea561a70efc7",
-          "commandId": "workspace:open-in-new-window"
-        },
-        {
-          "name": "Capture：设置窗口大小",
-          "type": "Choice",
-          "id": "d91304ec-2bdb-44bd-ac47-de2c4ad79d27",
-          "choiceId": "d83d1d79-e4f2-469a-9fbf-a3e66baf934e"
-        },
         {
           "name": "Template：QuickNote",
           "type": "Choice",
           "id": "18fa6801-67bd-441d-a7f1-93a97085e651",
           "choiceId": "11acb235-6249-462f-84ff-59e06547c859"
+        },
+        {
+          "name": "2024-04-18_相邻窗口建立笔记",
+          "type": "UserScript",
+          "id": "43fcaf0c-cab3-400d-8016-b303f5b439a7",
+          "path": "config/2024-04-18_相邻窗口建立笔记.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false
@@ -490,10 +385,10 @@
       "id": "0ca0d48a-e692-461c-9359-2dd3a3e3a248",
       "commands": [
         {
-          "name": "Template：QuickNote",
-          "type": "Choice",
-          "id": "176f7111-d83f-4a26-9647-50852fed2188",
-          "choiceId": "11acb235-6249-462f-84ff-59e06547c859"
+          "name": "新标签页",
+          "type": "Obsidian",
+          "id": "151c74cf-41da-41c9-a20d-57edc4f03000",
+          "commandId": "workspace:new-tab"
         },
         {
           "name": "2024-04-18_相邻窗口建立笔记",

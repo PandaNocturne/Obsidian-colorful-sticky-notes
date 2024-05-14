@@ -22,29 +22,12 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "2024",
+          "path": "2024/2024-05",
           "recursive": true
         }
       },
       "newNotesFolder": "2024",
       "views": [
-        {
-          "config": {
-            "interval": "2weeks"
-          },
-          "filter": {
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "96460b67-cb8f-4669-afed-cf2498444ac5",
-          "name": "日历",
-          "type": "calendar"
-        },
         {
           "config": {
             "coverField": "banner",
@@ -55,14 +38,8 @@
             ]
           },
           "filter": {
-            "conditions": [
-              {
-                "field": "name",
-                "operator": "not-contains",
-                "enabled": true,
-                "value": "QuickNote"
-              }
-            ]
+            "conjunction": "and",
+            "conditions": []
           },
           "colors": {
             "conditions": [
@@ -81,18 +58,84 @@
             "criteria": [
               {
                 "field": "created",
-                "order": "desc",
-                "enabled": true
+                "order": "asc",
+                "enabled": false
               }
             ]
           },
           "id": "a05f264d-06bd-41b0-8ea9-a11ca04a7348",
           "name": "画册",
           "type": "gallery"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "banner": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "cssclasses": {
+                "hide": true
+              },
+              "modified": {
+                "hide": true
+              },
+              "uid": {
+                "hide": true
+              },
+              "title": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "aliases",
+              "tags",
+              "date",
+              "state",
+              "path",
+              "banner",
+              "created",
+              "cssclasses",
+              "modified",
+              "title",
+              "uid"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "date",
+                "operator": "is-not-empty",
+                "enabled": false
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "created",
+                "order": "asc",
+                "enabled": false
+              }
+            ]
+          },
+          "id": "dbaf99fc-02f9-4c20-9333-f7cb40e75f9a",
+          "name": "表格",
+          "type": "table"
         }
       ],
       "id": "fa820947-fcff-44a1-a95d-c34c65d65334",
-      "name": "2024"
+      "name": "Project"
     },
     {
       "fieldConfig": {},
@@ -255,12 +298,7 @@
     "frontmatter": {
       "quoteStrings": "PLAIN"
     },
-    "commands": [
-      {
-        "project": "fa820947-fcff-44a1-a95d-c34c65d65334",
-        "view": "96460b67-cb8f-4669-afed-cf2498444ac5"
-      }
-    ],
+    "commands": [],
     "linkBehavior": "open-note"
   }
 }
