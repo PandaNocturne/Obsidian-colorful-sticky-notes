@@ -12,7 +12,7 @@ aliases:
   - Obsidian多彩便笺文档说明
 ---
 
-![README_IMG-1](https://cdn.pkmer.cn/images/202405150549226.gif!pkmer)
+![README_IMG-1](https://cdn.pkmer.cn/images/202405150549226.gif)
 
 ## 窗口移动
 
@@ -50,5 +50,5 @@ aliases:
 - 2024-05-06 2024-05-06T00:00:00+08:00
 	- 删除了一些不必要的插件
 	- 结合Note Gallery来当新标签页
-	- ![README_image_5](https://cdn.pkmer.cn/images/202405150549231.gif!pkmer)
+	- ![README_image_5](https://cdn.pkmer.cn/images/202405150549231.gif)
 	- [x] 17:05 笔记新窗口打开方式有待拓展 ➕ 2024-05-06 ✅ 2024-05-12
