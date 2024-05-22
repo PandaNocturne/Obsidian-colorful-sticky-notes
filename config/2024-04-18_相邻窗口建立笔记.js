@@ -16,7 +16,8 @@ module.exports = async (params) => {
   await app.commands.executeCommandById("workspace:move-to-new-window");
   // 暂停100ms
   await new Promise(resolve => setTimeout(resolve, 1));
-
+  // 将激活窗口置顶
+  activeWindow.electronWindow.setAlwaysOnTop(true);
   // 设置窗口的位置和大小
   activeWindow.resizeTo(activeWindowWidth, activeWindowHeight); // 调整窗口大小为宽度，高度
   activeWindow.moveTo(newWindowLeft, newWindowTop);

@@ -1,7 +1,21 @@
+/*
+ * @Author: 熊猫别熬夜 
+ * @Date: 2024-05-22 23:02:13 
+ * @Last Modified by: 熊猫别熬夜
+ * @Last Modified time: 2024-05-23 00:13:30
+*/
+
 body {
 	--folat-button-right: 10px;
 	--folat-button-opacity: 1;
 }
+
+.view-header>.view-actions>a:nth-child(1),
+.view-header>.view-actions>a:is([aria-label="更多选项"]) {
+	display: none !important;
+}
+
+
 
 /* 悬浮阅读模式切换按钮 */
 /* .view-header>.view-actions>a:is([aria-label *="Thino: 在中心窗口打开 thino"]) */
@@ -29,12 +43,6 @@ body {
 		16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
 }
 
-
-.view-header>.view-actions>a:nth-child(1),
-.view-header>.view-actions>a:is([aria-label="更多选项"]) {
-	display: none !important;
-}
-
 .view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：切换便笺背景"]) {
 	color: white !important;
 	bottom: 100px;
@@ -58,9 +66,6 @@ body {
 		8.9px 2.2px 17.9px rgba(0, 0, 0, 0.042),
 		16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
 }
-
-
-
 
 .view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：删除文档后关闭空白窗口"]) {
 	color: brown;
@@ -135,33 +140,10 @@ body {
 }
 
 
+/* 去除Note Gallery界面中的一些不必要的按钮 */
 body:has([class*="card-gallery"]) {
-
 	.view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：删除文档后关闭空白窗口"]),
 	.view-header>.view-actions>a:is([aria-label *="点击此处切换至"]) {
 		display: none !important;
 	}
-
-	/* .view-header>.view-actions>a:is([aria-label *="Another Quick Switcher: Recent search"]) {
-		color: white !important;
-		bottom: 280px;
-		right: var(--folat-button-right);
-
-		z-index: 1000 !important;
-		background-color: var(--color-accent);
-		opacity: var(--folat-button-opacity);
-		display: flex;
-		padding: 5px;
-		position: fixed;
-		transform: translate(-40%, 5%);
-		justify-content: center;
-		align-items: center;
-		width: 50px;
-		height: 50px;
-		border-radius: 50% !important;
-		box-shadow: 1.1px 0.3px 2.2px rgba(0, 0, 0, 0.02),
-			2.7px 0.7px 5.3px rgba(0, 0, 0, 0.028), 5px 1.3px 10px rgba(0, 0, 0, 0.035),
-			8.9px 2.2px 17.9px rgba(0, 0, 0, 0.042),
-			16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
-	} */
 }

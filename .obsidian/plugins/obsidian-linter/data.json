@@ -32,7 +32,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "uid:\ntitle:\naliases:\ntags:\nstate:\npriority:\ncssclasses:\ncreated:\nmodified:"
+      "text-to-insert": "uid:\ntitle:\naliases:\ntags:\nstate:\ncssclasses:\ncreated:\nmodified:"
     },
     "move-tags-to-yaml": {
       "enabled": false,

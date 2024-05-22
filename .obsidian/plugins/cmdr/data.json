@@ -66,15 +66,15 @@
       "mode": "any"
     },
     {
-      "id": "workspace:close-tab-group",
-      "icon": "lucide-x",
-      "name": "关闭此标签页分组",
-      "mode": "any"
-    },
-    {
       "id": "float-search:search-obsidian-globally",
       "icon": "lucide-search",
       "name": "Floating Search: Search obsidian globally",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:close-window",
+      "icon": "lucide-x",
+      "name": "关闭",
       "mode": "any"
     }
   ],

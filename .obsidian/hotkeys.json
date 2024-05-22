@@ -17,15 +17,7 @@
       "key": "["
     }
   ],
-  "editor:toggle-checklist-status": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "O"
-    }
-  ],
+  "editor:toggle-checklist-status": [],
   "editor:toggle-blockquote": [
     {
       "modifiers": [
@@ -215,14 +207,6 @@
       "key": "N"
     }
   ],
-  "quickadd:choice:11acb235-6249-462f-84ff-59e06547c859": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "N"
-    }
-  ],
   "quickadd:choice:f54a3dee-22e1-43c9-b15c-ec65ad4c087a": [
     {
       "modifiers": [
@@ -279,15 +263,6 @@
     }
   ],
   "file-explorer:new-file-in-new-pane": [],
-  "quickadd:choice:af61fa20-9011-45e2-a213-da67bcca57c6": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
   "obsidian-zoom:zoom-in": [
     {
       "modifiers": [
@@ -337,6 +312,26 @@
         "Mod"
       ],
       "key": "T"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "editor:cycle-list-checklist": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "quickadd:choice:2823a5ea-8698-4aa7-9914-366825f77487": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ]
 }

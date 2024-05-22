@@ -13,14 +13,11 @@
   "easy-toggle-sidebars",
   "file-explorer-plus",
   "float-search",
-  "new-tab-default-page",
   "note-gallery",
-  "no-empty-windows",
   "copy-url-in-preview",
-  "modalforms",
   "obsidian-attachment-name-formatting",
-  "obsidian-tasks-plugin",
-  "dataview",
   "slash-commander",
-  "obsidian-projects"
+  "obsidian-projects",
+  "obsidian-tasks-plugin",
+  "modalforms"
 ]

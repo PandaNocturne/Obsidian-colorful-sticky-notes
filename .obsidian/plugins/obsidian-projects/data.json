@@ -22,7 +22,7 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "2024/2024-05",
+          "path": "2024",
           "recursive": true
         }
       },
@@ -30,88 +30,13 @@
       "views": [
         {
           "config": {
-            "coverField": "banner",
-            "fitStyle": "cover",
-            "cardWidth": 200,
-            "includeFields": [
-              "aliases"
-            ]
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": [
-              {
-                "color": "#ff0505",
-                "condition": {
-                  "field": "name",
-                  "operator": "not-contains",
-                  "enabled": true,
-                  "value": "_"
-                }
-              }
-            ]
-          },
-          "sort": {
-            "criteria": [
-              {
-                "field": "created",
-                "order": "asc",
-                "enabled": false
-              }
-            ]
-          },
-          "id": "a05f264d-06bd-41b0-8ea9-a11ca04a7348",
-          "name": "画册",
-          "type": "gallery"
-        },
-        {
-          "config": {
-            "fieldConfig": {
-              "path": {
-                "hide": true
-              },
-              "banner": {
-                "hide": true
-              },
-              "created": {
-                "hide": true
-              },
-              "cssclasses": {
-                "hide": true
-              },
-              "modified": {
-                "hide": true
-              },
-              "uid": {
-                "hide": true
-              },
-              "title": {
-                "hide": true
-              }
-            },
-            "orderFields": [
-              "name",
-              "aliases",
-              "tags",
-              "date",
-              "state",
-              "path",
-              "banner",
-              "created",
-              "cssclasses",
-              "modified",
-              "title",
-              "uid"
-            ]
+            "interval": "month"
           },
           "filter": {
             "conjunction": "and",
             "conditions": [
               {
-                "field": "date",
+                "field": "name",
                 "operator": "is-not-empty",
                 "enabled": false
               }
@@ -121,15 +46,54 @@
             "conditions": []
           },
           "sort": {
-            "criteria": [
+            "criteria": []
+          },
+          "id": "b45099b9-3632-42a1-8490-d61a1d792d97",
+          "name": "日历",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "banner",
+            "includeFields": [
+              "aliases",
+              "tags"
+            ],
+            "fitStyle": "cover"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
               {
-                "field": "created",
-                "order": "asc",
-                "enabled": false
+                "field": "banner",
+                "operator": "is-not-empty",
+                "enabled": true
               }
             ]
           },
-          "id": "dbaf99fc-02f9-4c20-9333-f7cb40e75f9a",
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "470b41bd-e1bd-4978-a828-ed19d3c11f10",
+          "name": "画册",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c94f4e56-e522-4a23-99c2-73f9825e5a4c",
           "name": "表格",
           "type": "table"
         }

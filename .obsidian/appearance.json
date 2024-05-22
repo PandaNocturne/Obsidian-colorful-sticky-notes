@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "showViewHeader": true,
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "[编辑-熊猫]缩减笔记下方空白大小",
     "【Tab-熊猫】多行标签页堆叠显示0.7",
@@ -20,7 +20,6 @@
     "【编辑-熊猫】显示隐藏字符",
     "[分栏-熊猫]minimal-Cards",
     "【分栏-熊猫】minimal-Cards",
-    "【Plugin-熊猫】插件设置",
     "【背景-熊猫】笔记背景颜色",
     "【界面-熊猫】便笺界面元素调整",
     "【界面-熊猫】侧边栏自动隐藏",
@@ -35,7 +34,8 @@
     "【Theme-Soloing】主题配色",
     "【Yaml-熊猫】控制Yaml显示状态",
     "点阵背景",
-    "【界面-熊猫】悬浮换Commander按钮"
+    "【界面-熊猫】悬浮换Commander按钮",
+    "【Plugin-熊猫】插件设置"
   ],
   "baseFontSizeAction": true,
   "nativeMenus": false,

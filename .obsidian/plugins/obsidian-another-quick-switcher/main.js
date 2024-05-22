@@ -2017,6 +2017,7 @@ var DEFAULT_SETTINGS = {
   showDirectoryAtNewLine: false,
   showFullPathOfDirectory: false,
   showAliasesOnTop: false,
+  displayAliaseAsTitle: false,
   showExistingFilesOnly: false,
   hideGutterIcons: false,
   hideHotkeyGuides: false,
@@ -2097,7 +2098,7 @@ var AnotherQuickSwitcherSettingTab = class extends import_obsidian3.PluginSettin
     });
     if (this.plugin.settings.normalizeAccentsAndDiacritics) {
       containerEl.createEl("div", {
-        text: "\u26A0 If enabled, it is about 2 to 5 times slower than disabled",
+        text: "! If enabled, it is about 2 to 5 times slower than disabled",
         cls: "another-quick-switcher__settings__warning"
       });
     }
@@ -2149,10 +2150,20 @@ var AnotherQuickSwitcherSettingTab = class extends import_obsidian3.PluginSettin
         );
       });
     }
-    new import_obsidian3.Setting(containerEl).setName("Show aliases on top").addToggle((tc) => {
+    new import_obsidian3.Setting(containerEl).setName("Display alias as title on keyword match").setDesc(
+      "When a keyword matches an alias, display the alias as the title."
+    ).addToggle((tc) => {
       tc.setValue(this.plugin.settings.showAliasesOnTop).onChange(
         async (value) => {
           this.plugin.settings.showAliasesOnTop = value;
+          await this.plugin.saveSettings();
+        }
+      );
+    });
+    new import_obsidian3.Setting(containerEl).setName("Display the alias as the title.").addToggle((tc) => {
+      tc.setValue(this.plugin.settings.displayAliaseAsTitle).onChange(
+        async (value) => {
+          this.plugin.settings.displayAliaseAsTitle = value;
           await this.plugin.saveSettings();
         }
       );
@@ -2733,7 +2744,7 @@ function round(n, decimalPlace) {
 }
 
 // src/ui/suggestion-factory.ts
-function createItemDiv(item, aliases, options) {
+function createItemDiv(item, aliasesDisplayedAsTitle, options) {
   var _a, _b;
   const itemDiv = createDiv({
     cls: [
@@ -2751,7 +2762,7 @@ function createItemDiv(item, aliases, options) {
   });
   const titleDiv = createDiv({
     cls: "another-quick-switcher__item__title",
-    text: options.showAliasesOnTop && aliases.length > 0 ? aliases.join(" / ") : item.file.basename
+    text: aliasesDisplayedAsTitle.length > 0 ? aliasesDisplayedAsTitle.join(" / ") : item.file.basename
   });
   entryDiv.appendChild(titleDiv);
   const isExcalidrawFile = isExcalidraw(item.file);
@@ -2849,7 +2860,7 @@ function createDescriptionDiv(args) {
     const aliasDiv = createDiv({
       cls: "another-quick-switcher__item__description"
     });
-    const displayAliases = options.showAliasesOnTop ? [item.file.basename] : aliases;
+    const displayAliases = options.displayAliasAsTitleOnKeywordMatched ? [item.file.basename] : aliases;
     for (const x of displayAliases) {
       const aliasSpan = createSpan({
         cls: "another-quick-switcher__item__description__alias"
@@ -2925,7 +2936,11 @@ function createElements(item, options) {
       return (_a2 = x.meta) != null ? _a2 : [];
     }
   );
-  const itemDiv = createItemDiv(item, aliases, options);
+  const itemDiv = createItemDiv(
+    item,
+    options.displayAliaseAsTitle ? item.aliases : aliases,
+    options
+  );
   const frontMatter = omitBy(
     (_a = item.frontMatter) != null ? _a : {},
     (key, value) => options.excludeFrontMatterKeys.includes(key) || value == null
@@ -3320,7 +3335,8 @@ var AnotherQuickSwitcherModal = class _AnotherQuickSwitcherModal extends import_
       showDirectory: this.settings.showDirectory,
       showDirectoryAtNewLine: this.settings.showDirectoryAtNewLine,
       showFullPathOfDirectory: this.settings.showFullPathOfDirectory,
-      showAliasesOnTop: this.settings.showAliasesOnTop,
+      displayAliasAsTitleOnKeywordMatched: this.settings.showAliasesOnTop,
+      displayAliaseAsTitle: this.settings.displayAliaseAsTitle,
       hideGutterIcons: this.settings.hideGutterIcons,
       showFuzzyMatchScore: this.settings.showFuzzyMatchScore
     });

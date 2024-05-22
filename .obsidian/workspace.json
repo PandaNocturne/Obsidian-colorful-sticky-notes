@@ -4,68 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "d43ab41f41240b55",
-        "type": "split",
-        "children": [
-          {
-            "id": "dc4cd81233f8f96a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "979a9de1d522595f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2024/2024-05/2024-05-06_185807 动漫和漫画图书分类.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "c1aa566d7adfe76b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8c46cfb5fb700917",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2024/2024-05/2024-05-12_182516 黑衣麻陶的Calibre经验分享.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "830a03e4dbab8a75",
+        "id": "d798afd65a275968",
         "type": "tabs",
         "children": [
           {
-            "id": "26516094eb92bcba",
+            "id": "9b3de891efe8eb35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024/2024-05/2024-05-06_170102.md",
+                "file": "Note Gallery.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17a8fe63eb52e4cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024/2024-05/QuickNote-20240522221728.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/2024-05/2024-05-09_163118.md"
+                "file": "2024/2024-05/QuickNote-20240522221728.md"
               }
             }
           },
@@ -170,64 +139,30 @@
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
-      "cmdr:Commander: 打开 Commander 设置": false,
       "easy-toggle-sidebars:autoHide switcher": false,
       "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false,
-      "modalforms:Edit forms": false
+      "obsidian-projects:Open projects": false
     }
   },
   "floating": {
-    "id": "1090781ff65bdb3a",
+    "id": "bae4fea5ec2c5985",
     "type": "floating",
     "children": [
       {
-        "id": "07bdb6dabf5314f5",
+        "id": "c5acfef05dd4dadf",
         "type": "window",
         "children": [
           {
-            "id": "2eedeabc81e4b06f",
+            "id": "ac8a17b88f4b3d07",
             "type": "tabs",
             "children": [
               {
-                "id": "b0d0cd348495b7a7",
+                "id": "12f84db6eaa5a344",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2024/2024-05/2024-05-09_163118.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -452,
-        "y": 408,
-        "width": 446,
-        "height": 415,
-        "maximize": false,
-        "zoom": -1.5
-      },
-      {
-        "id": "aad084717e50efc6",
-        "type": "window",
-        "children": [
-          {
-            "id": "1cbc4db2bcd451a9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "aa8c74b8a5f51789",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2024/2024-05/2024-05-11_210344.md",
+                    "file": "2024/2024-05/【便笺】2024-05-18 星期六  20时38分58秒.md",
                     "mode": "preview",
                     "backlinks": false,
                     "source": false
@@ -238,176 +173,55 @@
           }
         ],
         "direction": "vertical",
-        "x": -864,
-        "y": 0,
-        "width": 432,
-        "height": 392,
-        "maximize": false,
-        "zoom": -1.5
-      },
-      {
-        "id": "ff1838d9afb36dca",
-        "type": "window",
-        "children": [
-          {
-            "id": "5c15f1aceb0f53ce",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "00f07c9f474a4eb2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2024/2024-05/2024-05-12_225757.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -432,
-        "y": 0,
-        "width": 432,
-        "height": 392,
-        "maximize": false,
-        "zoom": -1.5
-      },
-      {
-        "id": "50784aec2ca300db",
-        "type": "window",
-        "children": [
-          {
-            "id": "4a22d16d88b6007b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "cc46002813ae5fe5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2024/2024-05/2024-05-12_235439.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -843,
-        "y": 409,
-        "width": 363,
-        "height": 383,
-        "maximize": false,
-        "zoom": -1.5
-      },
-      {
-        "id": "2afeae8b5ca3d82d",
-        "type": "window",
-        "children": [
-          {
-            "id": "448dd704c6d7cbb3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e713e51d96084c07",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2024/2024-05/【便笺】2024-05-14 星期二  23时37分49秒.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 557,
-        "y": 930,
-        "width": 376,
-        "height": 355,
-        "maximize": false,
-        "zoom": -1.5
-      },
-      {
-        "id": "6feb34216eda9d1e",
-        "type": "window",
-        "children": [
-          {
-            "id": "2f1f1f71714922dc",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "add7dbe8c8561dfa",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 396,
-        "y": 137,
-        "width": 456,
-        "height": 435,
+        "x": 780,
+        "y": 68,
+        "width": 540,
+        "height": 541,
         "maximize": false,
         "zoom": -1.5
       }
     ]
   },
-  "active": "b0d0cd348495b7a7",
+  "active": "17a8fe63eb52e4cf",
   "lastOpenFiles": [
+    "2024/2024-05/【便笺】2024-05-22 星期三  22时53分36秒.md",
+    "2024/2024-05/【便笺】2024-05-18 星期六  20时38分58秒.md",
+    "2024/2024-05/QuickNote-20240522221728.md",
+    "Note Gallery.md",
+    "2024/2024-05/【便笺】2024-05-22 星期三  18时08分44秒.md",
+    "2024/2024-05/2024-05-12_182516 黑衣麻陶的Calibre经验分享.md",
+    "2024/2024-05/2024-05-03_175931.md",
+    "ShareMyPlugin.md",
+    "2024/2024-05/QuickNote-20240522220553.svg",
+    "2024/2024-05/【便笺】2024-05-22 星期三  18时47分21秒.md",
+    "assets/【便笺】2024-05-22 星期三  18时47分21秒_image_1.png",
+    "assets/【便笺】2024-05-22 星期三  18时47分21秒_image_2.png",
+    "2024/2024-05/【便笺】2024-05-16 星期四  12时26分00秒.md",
+    "Excalidraw/Drawing 2024-05-20 09.57.51.excalidraw.md",
+    "assets/图标11.ico",
+    "Excalidraw",
+    "2024/2024-05/【便笺】2024-05-20 星期一  09时40分15秒.md",
+    "2024/2024-05/【便笺】2024-05-20 星期一  09时18分20秒.md",
+    "2024/2024-05/【便笺】2024-05-18 星期六  22时09分08秒.md",
+    "2024/2024-04/2024-04-17_184112 插件配置.md",
+    "2024/2024-04/QuickNote-20240429105605.md",
+    "2024/2024-05/2024-05-06_185807 动漫和漫画图书分类.md",
+    "2024/2024-05/2024-05-09_163118.md",
+    "2024/2024-05/2024-05-12_225757.md",
+    "2024/2024-05/2024-05-11_210344.md",
     "2024/2024-05/2024-05-12_235439.md",
     "2024/2024-05/【便笺】2024-05-14 星期二  23时37分49秒.md",
-    "2024/2024-05/2024-05-06_185807 动漫和漫画图书分类.md",
     "2024/2024-05/【便笺】2024-05-14 星期二  23时38分27秒.md",
     "2024/2024-05/【便笺】2024-05-14 星期二  23时37分58秒.md",
     "2024/2024-05/【便笺】2024-05-14 星期二  23时38分17秒.md",
-    "2024/2024-05/2024-05-09_163118.md",
     "2024/2024-05/【便笺】2024-05-14 星期二  23时32分48秒.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时35分51秒.md",
-    "Note Gallery.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时36分03秒.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时35分58秒.md",
-    "2024/2024-05/2024-05-14_161725.md",
-    "2024/2024-05/2024-05-12_225757.md",
-    "2024/2024-05/2024-05-06_170102.md",
-    "2024/2024-05/2024-05-12_182516 黑衣麻陶的Calibre经验分享.md",
-    "2024/2024-05/2024-05-11_210344.md",
-    "2024/2024-05/2024-05-13_010411.md",
-    "2024/2024-05/2024-05-12_220614 快速从calibre批量刮削漫画元数据.md",
     "assets/7Z8X_ZV)2$Q9M}6A{C$XZ6Q.png",
     "assets/2024-05-12_225757_image_2.jpg",
     "assets/2024-05-12_225757_image_1.png",
     "assets/2024-05-12_182516 黑衣麻陶的Calibre经验分享_image_2.png",
     "assets/2024-05-12_182516 黑衣麻陶的Calibre经验分享_image_3.png",
-    "2024/2024-05/2024-05-12_215435.md",
     "assets/2024-05-12_215435_image_3.png",
     "assets/2024-05-12_215435_image_2.png",
-    "assets/2024-05-12_215435_image_1.png",
-    "assets/2024-05-12_215435_image_1.png",
-    "README.md",
-    "docs/docs.md",
-    "2024/2024-05/2024-05-12_101036.md",
-    "2024/2024-05/2024-05-12_100934.md",
-    "2024/2024-05/2024-05-12_100944.md",
-    "2024/2024-05/2024-05-10_004644.md",
-    "assets/Pasted image 20240510004726.png",
     "assets/怪獸8號 (5) - 松本直也.pdf",
     "tasksCalendar.js",
     "config/2024-04-30_EditorOrCreatTask.js",
@@ -416,8 +230,6 @@
     "2024/2024-04/2024-04-29",
     "2024/2024-04/2024-04-28",
     "2024/2024-04/2024-04-27",
-    "2024/2024-04/2024-04-26",
-    "2024/2024-04/2024-04-24",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",

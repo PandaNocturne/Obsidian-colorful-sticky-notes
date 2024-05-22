@@ -70,8 +70,8 @@ div.view-header>div.clickable-icon.view-header-icon::after {
 	-webkit-app-region: drag;
 	font-size: smaller;
 	position: fixed !important;
-	top: 40px !important;
-	right: 10px;
+	bottom: 0px !important;
+	left: 0px;
 	text-align: end;
 	opacity: 0.8;
 	pointer-events: none;
