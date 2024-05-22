@@ -1,15 +1,15 @@
 ## 基本介绍
 
 本库基于 Obsidian 简单实现微软的便笺功能 (不包含同步)，可以实现便笺的背景切换、新窗口建立笔记、便笺列表视图......  
-![[./asset/README_IMG-1.png]]
+![](./asset/README_IMG-1.png)
 
 ## 界面介绍
 
-![[./asset/README_IMG-2.png]]
+![](./asset/README_IMG-2.png)
 
 ### 工具栏介绍
 
-![[./asset/README_IMG-3.png]]
+![](./asset/README_IMG-3.png)
 
 工具栏的空白部分可以用鼠标按住拖动，也可以配合 AltSnap 工具进行窗口移动，详见 [AltSnap-便捷的拖动和管理窗口工具](https://pkmer.cn/show/20231014160307%20)
 
@@ -17,10 +17,10 @@
 
 本库是参考 Things 主题的悬浮按钮样式实现的，除了 `切换阅读/编辑模式` 的按钮外，还通过 QuickAdd 和 Commander 定制了其他几项按钮。具体功能请见下图。
 
-![[./asset/README_IMG-4.png]]
+![](./asset/README_IMG-4.png)
 
 效果演示：  
-![[./asset/README_IMG-5.gif]]
+![](./asset/README_IMG-5.gif)
 
 ## 快捷键指南
 
