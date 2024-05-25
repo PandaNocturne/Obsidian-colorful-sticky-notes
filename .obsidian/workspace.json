@@ -19,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "17a8fe63eb52e4cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024/2024-05/QuickNote-20240522221728.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/2024-05/QuickNote-20240522221728.md"
+                "file": "2024/2024-05/【便笺】2024-05-25 星期六  14时15分25秒.md"
               }
             }
           },
@@ -124,24 +110,33 @@
               "type": "Strange New Worlds",
               "state": {}
             }
+          },
+          {
+            "id": "e1761b81b4aaebbd",
+            "type": "leaf",
+            "state": {
+              "type": "chatbot-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
-    "collapsed": true
+    "width": 372.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "modalforms:Edit forms": false,
       "random-note:开始漫游笔记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "easy-toggle-sidebars:autoHide switcher": false,
       "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false
+      "obsidian-projects:Open projects": false,
+      "bmo-chatbot:BMO Chatbot": false
     }
   },
   "floating": {
@@ -149,21 +144,21 @@
     "type": "floating",
     "children": [
       {
-        "id": "c5acfef05dd4dadf",
+        "id": "542b68819026fad7",
         "type": "window",
         "children": [
           {
-            "id": "ac8a17b88f4b3d07",
+            "id": "711ab246498841f1",
             "type": "tabs",
             "children": [
               {
-                "id": "12f84db6eaa5a344",
+                "id": "9a6e43c0297eebc3",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2024/2024-05/【便笺】2024-05-18 星期六  20时38分58秒.md",
-                    "mode": "preview",
+                    "file": "2024/2024-05/【便笺】2024-05-25 星期六  14时15分25秒.md",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
                   }
@@ -173,21 +168,66 @@
           }
         ],
         "direction": "vertical",
-        "x": 780,
-        "y": 68,
-        "width": 540,
-        "height": 541,
+        "x": 568,
+        "y": 1104,
+        "width": 786,
+        "height": 521,
+        "maximize": false,
+        "zoom": -1.5
+      },
+      {
+        "id": "e3a0f3eeead1abbc",
+        "type": "window",
+        "children": [
+          {
+            "id": "c42c2379103ccfed",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2606bf722276c046",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024/2024-05/【便笺】2024-05-25 星期六  16时25分16秒.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 670,
+        "y": 981,
+        "width": 534,
+        "height": 372,
         "maximize": false,
         "zoom": -1.5
       }
     ]
   },
-  "active": "17a8fe63eb52e4cf",
+  "active": "9a6e43c0297eebc3",
   "lastOpenFiles": [
-    "2024/2024-05/【便笺】2024-05-22 星期三  22时53分36秒.md",
-    "2024/2024-05/【便笺】2024-05-18 星期六  20时38分58秒.md",
-    "2024/2024-05/QuickNote-20240522221728.md",
+    "2024/2024-05/【便笺】2024-05-25 星期六  16时25分16秒.md",
+    "2024/2024-05/【便笺】2024-05-25 星期六  14时15分25秒.md",
+    "BMO/Profiles/BMO.md",
+    "BMO/Profiles",
+    "BMO",
+    "assets/【便笺】2024-05-25 星期六  16时25分16秒_image_1.png",
+    "2024/2024-05/【便笺】2024-05-23 星期四  22时54分41秒.md",
     "Note Gallery.md",
+    "2024/2024-05/【便笺】2024-05-24 星期五  23时14分15秒.md",
+    "2024/2024-05/【便笺】2024-05-23 星期四  19时40分45秒.md",
+    "2024/2024-05/【便笺】2024-05-23 星期四  10时12分16秒.md",
+    "2024/2024-05/【便笺】2024-05-18 星期六  20时38分58秒.md",
+    "assets/【便笺】2024-05-23 星期四  19时40分45秒_image_1.png",
+    "asset/README_IMG-4_copy.png",
+    "asset/README_IMG-2_copy.png",
+    "2024/2024-05/【便笺】2024-05-22 星期三  22时53分36秒.md",
+    "2024/2024-05/QuickNote-20240522221728.md",
     "2024/2024-05/【便笺】2024-05-22 星期三  18时08分44秒.md",
     "2024/2024-05/2024-05-12_182516 黑衣麻陶的Calibre经验分享.md",
     "2024/2024-05/2024-05-03_175931.md",
@@ -208,28 +248,15 @@
     "2024/2024-05/2024-05-06_185807 动漫和漫画图书分类.md",
     "2024/2024-05/2024-05-09_163118.md",
     "2024/2024-05/2024-05-12_225757.md",
-    "2024/2024-05/2024-05-11_210344.md",
-    "2024/2024-05/2024-05-12_235439.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时37分49秒.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时38分27秒.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时37分58秒.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时38分17秒.md",
-    "2024/2024-05/【便笺】2024-05-14 星期二  23时32分48秒.md",
     "assets/7Z8X_ZV)2$Q9M}6A{C$XZ6Q.png",
     "assets/2024-05-12_225757_image_2.jpg",
     "assets/2024-05-12_225757_image_1.png",
-    "assets/2024-05-12_182516 黑衣麻陶的Calibre经验分享_image_2.png",
-    "assets/2024-05-12_182516 黑衣麻陶的Calibre经验分享_image_3.png",
-    "assets/2024-05-12_215435_image_3.png",
-    "assets/2024-05-12_215435_image_2.png",
     "assets/怪獸8號 (5) - 松本直也.pdf",
     "tasksCalendar.js",
     "config/2024-04-30_EditorOrCreatTask.js",
     "2024/2024-05",
     "2024/2024-04/2024-04-30",
     "2024/2024-04/2024-04-29",
-    "2024/2024-04/2024-04-28",
-    "2024/2024-04/2024-04-27",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",

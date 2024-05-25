@@ -1,27 +1,71 @@
+# Obsidian 多彩便笺库
+
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-1.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022926.png)
+
+> [!note] Obsidian colorful sticky notes
+> 作者：熊猫别熬夜  
+> 分类：[' 功能库 ',' 便笺 ','Sticky Note']
+> 地址：[Obsidian多彩便笺功能库](https://github.com/PandaNocturne/Obsidian-colorful-sticky-notes)
+
+## 起源
+
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-2.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022036.png)
+
+许多人应该都用过微软自带的便笺，只需在 win10 中按下 `Win + Q/S`，然后搜索 `Sticky note` 或者 `便笺` 即可。在我开始使用 Obsidian 之前，我常常利用**便笺**记录一些临时信息和每天的计划。但是，接触到 Markdown 等笔记工具后，我发现**便笺**的简单功能已经无法满足我的需求了，特别是限制每次仅能保存一张图片。习惯了 Markdown 语法以及 Obsidian 提供的自定义快捷键和本地数据存储后，我突发奇想决定利用 Obsidian 打造自己的便笺库。
+
+随后实现了 [多彩背景设定](https://pkmer.cn/show/20240417152147)，建立相邻窗口进行笔记记录并添加悬浮按钮等功能，并开始将其整合成这个 [Obsidian多彩便笺功能库](https://github.com/PandaNocturne/Obsidian-colorful-sticky-notes)。经过约一个月的个人使用体验，效果还不错，因此我想分享一下这个库的使用方法。
+
+除了实现微软便签功能（不包括同步），该库还支持诸如更换背景、在新窗口中创建笔记、以列表视图查看便签等功能……当然也支持 Obsidian 的 Markdown 语法，如插入图片、创建表格、创建 Callout 和添加别名或标签。同时配置了 Solve 插件，你可以随时新建一个临时计算草稿作为备忘录。
+
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-3.gif](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022543.gif)
+
+> 当然，在此基础上你还可以根据需要不断扩展和延伸 Obsidian 的灵活性。欢迎大家一起来尝试使用这个功能库。
+
 ## 基本介绍
 
-本库基于 Obsidian 简单实现微软的便笺功能 (不包含同步)，可以实现便笺的背景切换、新窗口建立笔记、便笺列表视图......  
-![](./asset/README_IMG-1.png)
+基于 Obsidian 简单实现微软的便笺功能 (不包含同步)，可以实现便笺的背景切换、新窗口建立笔记、便笺列表视图......  
+
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-1.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022609.png)
+
+- **便笺背景切换**：根据自己的喜好和需要，切换不同的便笺背景，创建独特的便笺风格。
+- **新窗口建立笔记**：通过快捷键或按钮，轻松在新窗口中创建新的便笺，方便多任务处理。
+- **便笺列表视图**：按不同的排序方式查看便笺列表，快速定位到需要的笔记。
 
 ## 界面介绍
 
-![](./asset/README_IMG-2.png)
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-4.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022835.png)
 
-### 工具栏介绍
+首先跟原始的Obsidian界面相比，这个便笺库改了很多界面元素，主要用Hider插件隐藏了**tab标签页**和**左侧的侧边栏**，而且，你也找不到**左右侧侧边栏**，也没有**最小最大化按钮**，可以说界面元素改了很多，所以这里会给大家介绍一下。
 
-![](./asset/README_IMG-3.png)
+- 没有tab标签页，如何移动界面？
+	- 鼠标工具栏上左键长按即可移动，跟tab标签页一样。
+- 如何实现最小化？
+	- 直接在工具栏鼠标**右键**才会调出来：
+	  ![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-5.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022260.png)
+- 如何打开左右侧侧边栏？
+	- 我可以很抱歉的告诉你，没法打开。设计这个便笺库的初始，我就不想打开侧边栏界面，尽量以时间戳的形式快速建立笔记，而不是要花心思放在文件列表管理上，而且便笺的主要用来临时记录，也不适合存长篇笔记，所以也不需要什么大纲视图。
+	- 好吧，实际上我也有所保留的，在主界面(新窗口打开的不是主界面)，通过鼠标右键按住，左滑右滑可以打开对应的侧边栏。
+- 其他主要界面包括：编辑区、工具栏、悬浮按钮
+	- **编辑区**：在这里您可以编辑便笺的内容，添加标题、文本和其他格式化的元素。
+	- **悬浮按钮**：悬浮一些常用的按钮，方便调用，注意，悬浮的按钮的命令都是通过QuickAdd定制的脚本，最好不要修改QuickAdd现有的命令。
+	- **工具栏**：工具栏提供了一些常用的操作按钮和快捷键，方便您快速切换模式、添加新笔记等
+### 工具栏
 
-工具栏的空白部分可以用鼠标按住拖动，也可以配合 AltSnap 工具进行窗口移动，详见 [AltSnap-便捷的拖动和管理窗口工具](https://pkmer.cn/show/20231014160307%20)
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-6.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022897.png)
 
-### 悬浮按钮介绍
+工具栏的主要按钮如图所示，工具栏的空白部分可以用鼠标按住拖动，也可以配合 AltSnap 工具进行窗口移动，详见 [AltSnap-便捷的拖动和管理窗口工具](https://pkmer.cn/show/20231014160307%20)
 
-本悬浮按钮是参考 Things 主题的悬浮按钮样式实现的，除了 `切换阅读/编辑模式` 的按钮外，还通过 QuickAdd 和 Commander 定制了其他几项按钮。具体功能请见下图。
+### 悬浮按钮
 
-![](./asset/README_IMG-4.png)
+悬浮按钮是参考 Things 主题的悬浮按钮样式实现的，除了 `切换阅读/编辑模式` 的按钮外，还通过 QuickAdd 和 Commander 定制了其他几项按钮。具体功能请见下图。
 
-效果演示：  
-![](./asset/README_IMG-5.gif)
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-7.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022999.png)
 
+效果演示：
+
+![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-3.gif](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022289.gif)
+
+- **便笺列表**：通过便笺列表视图，您可以方便地浏览和切换不同的便笺。
 ## 快捷键指南
 
 `Ctrl + Shift + Tab` 显示/隐藏便笺，鼠标左滑右滑是打开左右侧边栏，鼠标右键双击是折叠或打开两侧侧边栏，另外请善用 `Ctrl + P` 命令面板。
@@ -33,7 +77,7 @@
 | 笔记重命名     | `F2`，拓展：[PKMer_QuickAdd 脚本 -F2 弹窗式重命名三合一]( https://pkmer.cn/show/20240401221223 ) |
 | 切换笔记      | `Ctrl + O`                                                                        |
 | 新窗口建立笔记   | `Ctrl + N`                                                                        |
-| H1~H6 标题   | `Ctrl + 1~6`，`Ctrl + 0` 去除标题                                                       |
+| H1~H6 标题  | `Ctrl + 1~6`，`Ctrl + 0` 去除标题                                                      |
 | 引用框       | `Ctrl + R`                                                                        |
 | 切换阅读或编辑模式 | `Ctrl + E`                                                                        |
 
