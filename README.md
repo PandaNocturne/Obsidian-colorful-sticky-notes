@@ -2,11 +2,6 @@
 
 ![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-1.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022926.png)
 
-> [!note] Obsidian colorful sticky notes
-> 作者：熊猫别熬夜  
-> 分类：[' 功能库 ',' 便笺 ','Sticky Note']
-> 地址：[Obsidian多彩便笺功能库](https://github.com/PandaNocturne/Obsidian-colorful-sticky-notes)
-
 ## 起源
 
 ![2024-05-23_打造个性化便笺：Obsidian 轻松实现微软便笺功能_IMG-2.png](https://raw.githubusercontent.com/PandaNocturne/ImageAssets/main/Obsidian/202405260022036.png)
