@@ -10,16 +10,16 @@ body {
 	--folat-button-opacity: 1;
 }
 
-.view-header>.view-actions>a:nth-child(1),
-.view-header>.view-actions>a:is([aria-label="更多选项"]) {
+.view-header>.view-actions>button:nth-child(1),
+.view-header>.view-actions>button:is([aria-label="更多选项"]) {
 	display: none !important;
 }
 
 
 
 /* 悬浮阅读模式切换按钮 */
-/* .view-header>.view-actions>a:is([aria-label *="Thino: 在中心窗口打开 thino"]) */
-.view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：相邻窗口打开笔记"]) {
+/* .view-header>.view-actions>button:is([aria-label *="Thino: 在中心窗口打开 thino"]) */
+.view-header>.view-actions>button:is([aria-label *="QuickAdd: Macro：相邻窗口打开笔记"]) {
 	color: white !important;
 	bottom: 160px;
 	right: var(--folat-button-right);
@@ -43,7 +43,7 @@ body {
 		16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
 }
 
-.view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：切换便笺背景"]) {
+.view-header>.view-actions>button:is([aria-label *="QuickAdd: Macro：切换便笺背景"]) {
 	color: white !important;
 	bottom: 100px;
 	right: var(--folat-button-right);
@@ -67,7 +67,7 @@ body {
 		16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
 }
 
-.view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：删除文档后关闭空白窗口"]) {
+.view-header>.view-actions>button:is([aria-label *="QuickAdd: Macro：删除文档后关闭空白窗口"]) {
 	color: brown;
 	bottom: 40px;
 	right: var(--folat-button-right);
@@ -91,7 +91,7 @@ body {
 		16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
 }
 
-.view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：新窗口建立笔记"]) {
+.view-header>.view-actions>button:is([aria-label *="QuickAdd: Macro：新窗口建立笔记"]) {
 	color: rgb(254, 254, 254) !important;
 	bottom: 220px;
 	right: var(--folat-button-right);
@@ -115,7 +115,7 @@ body {
 		16.7px 4.2px 33.4px rgba(0, 0, 0, 0.05), 40px 10px 80px rgba(0, 0, 0, 0.07);
 }
 
-.view-header>.view-actions>a:is([aria-label *="点击此处切换至"]) {
+.view-header>.view-actions>button:is([aria-label *="点击此处切换至"]) {
 	color: white !important;
 	bottom: 280px;
 	right: var(--folat-button-right);
@@ -142,8 +142,8 @@ body {
 
 /* 去除Note Gallery界面中的一些不必要的按钮 */
 body:has([class*="card-gallery"]) {
-	.view-header>.view-actions>a:is([aria-label *="QuickAdd: Macro：删除文档后关闭空白窗口"]),
-	.view-header>.view-actions>a:is([aria-label *="点击此处切换至"]) {
+	.view-header>.view-actions>button:is([aria-label *="QuickAdd: Macro：删除文档后关闭空白窗口"]),
+	.view-header>.view-actions>button:is([aria-label *="点击此处切换至"]) {
 		display: none !important;
 	}
 }

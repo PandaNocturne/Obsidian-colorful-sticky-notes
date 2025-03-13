@@ -13,11 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note Gallery.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+                "file": "2024/2024-11/【便笺】241103_003705.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "【便笺】241103_003705"
             }
           }
         ]
@@ -39,16 +41,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "e605881f001df895",
-            "type": "leaf",
-            "state": {
-              "type": "style-settings",
-              "state": {}
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -57,13 +54,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Project",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -73,16 +72,19 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 466.40000000000003,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -99,8 +101,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024/2024-05/【便笺】2024-05-25 星期六  14时15分25秒.md"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
             }
           },
           {
@@ -108,7 +114,9 @@
             "type": "leaf",
             "state": {
               "type": "Strange New Worlds",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -116,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "chatbot-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -124,19 +134,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "modalforms:Edit forms": false,
       "random-note:开始漫游笔记": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "command-palette:打开命令面板": false,
       "easy-toggle-sidebars:autoHide switcher": false,
       "float-search:Search Obsidian In Modal": false,
-      "obsidian-projects:Open projects": false,
-      "bmo-chatbot:BMO Chatbot": false
+      "modalforms:Edit forms": false
     }
   },
   "floating": {
@@ -144,81 +153,90 @@
     "type": "floating",
     "children": [
       {
-        "id": "542b68819026fad7",
+        "id": "1ee5a38f7437b152",
         "type": "window",
         "children": [
           {
-            "id": "711ab246498841f1",
+            "id": "f2d0b1398eedcc50",
             "type": "tabs",
             "children": [
               {
-                "id": "9a6e43c0297eebc3",
+                "id": "0c26446f0466c929",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2024/2024-05/【便笺】2024-05-25 星期六  14时15分25秒.md",
+                    "file": "2025/2025-03/【便笺】2025-03-13 星期四  19时01分50秒.md",
                     "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "【便笺】2025-03-13 星期四  19时01分50秒"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 568,
-        "y": 1104,
-        "width": 786,
-        "height": 521,
+        "x": 380,
+        "y": 221,
+        "width": 368,
+        "height": 380,
         "maximize": false,
-        "zoom": -1.5
+        "zoom": -2
       },
       {
-        "id": "e3a0f3eeead1abbc",
+        "id": "728f90972c657a6d",
         "type": "window",
         "children": [
           {
-            "id": "c42c2379103ccfed",
+            "id": "acbae0e79be82023",
             "type": "tabs",
             "children": [
               {
-                "id": "2606bf722276c046",
+                "id": "f453f8388a6d5765",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "2024/2024-05/【便笺】2024-05-25 星期六  16时25分16秒.md",
+                    "file": "2025/2025-03/【便笺】2025-03-13 星期四  19时01分55秒.md",
                     "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "【便笺】2025-03-13 星期四  19时01分55秒"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 670,
-        "y": 981,
-        "width": 534,
-        "height": 372,
+        "x": 560,
+        "y": 108,
+        "width": 416,
+        "height": 376,
         "maximize": false,
-        "zoom": -1.5
+        "zoom": -2
       }
     ]
   },
-  "active": "9a6e43c0297eebc3",
+  "active": "9b3de891efe8eb35",
   "lastOpenFiles": [
-    "2024/2024-05/【便笺】2024-05-25 星期六  16时25分16秒.md",
+    "2025/2025-03/【便笺】2025-03-13 星期四  19时01分50秒.md",
+    "2024/2024-11/【便笺】241103_003705.md",
+    "Note Gallery.md",
+    "2025/2025-03/【便笺】2025-03-13 星期四  19时01分55秒.md",
+    "2025/2025-03",
+    "2025",
     "2024/2024-05/【便笺】2024-05-25 星期六  14时15分25秒.md",
+    "2024/2024-05/【便笺】2024-05-25 星期六  16时25分16秒.md",
     "BMO/Profiles/BMO.md",
     "BMO/Profiles",
     "BMO",
     "assets/【便笺】2024-05-25 星期六  16时25分16秒_image_1.png",
     "2024/2024-05/【便笺】2024-05-23 星期四  22时54分41秒.md",
-    "Note Gallery.md",
     "2024/2024-05/【便笺】2024-05-24 星期五  23时14分15秒.md",
     "2024/2024-05/【便笺】2024-05-23 星期四  19时40分45秒.md",
     "2024/2024-05/【便笺】2024-05-23 星期四  10时12分16秒.md",
@@ -245,9 +263,6 @@
     "2024/2024-05/【便笺】2024-05-18 星期六  22时09分08秒.md",
     "2024/2024-04/2024-04-17_184112 插件配置.md",
     "2024/2024-04/QuickNote-20240429105605.md",
-    "2024/2024-05/2024-05-06_185807 动漫和漫画图书分类.md",
-    "2024/2024-05/2024-05-09_163118.md",
-    "2024/2024-05/2024-05-12_225757.md",
     "assets/7Z8X_ZV)2$Q9M}6A{C$XZ6Q.png",
     "assets/2024-05-12_225757_image_2.jpg",
     "assets/2024-05-12_225757_image_1.png",
@@ -255,8 +270,6 @@
     "tasksCalendar.js",
     "config/2024-04-30_EditorOrCreatTask.js",
     "2024/2024-05",
-    "2024/2024-04/2024-04-30",
-    "2024/2024-04/2024-04-29",
     "未命名 2.canvas",
     "未命名 1.canvas",
     "未命名.canvas",

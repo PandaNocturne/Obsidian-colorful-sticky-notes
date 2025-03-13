@@ -13,32 +13,6 @@
 	display: none;
 }
 
-/*! 添加可拖拽笔记的符号 */
-.workspace-split .workspace-leaf .view-header-icon {
-	display: flex;
-	position: absolute;
-	opacity: 1 !important;
-	right: 1px !important;
-	min-width: fit-content;
-}
-
-/* 更换图标 */
-div.view-header>div.clickable-icon.view-header-icon>svg {
-	display: none;
-}
-
-div.view-header>div.clickable-icon.view-header-icon::after {
-	content: "\2723";
-	font-size: 20px;
-	z-index: 10;
-	/* -webkit-app-region: drag; */
-}
-
-/* 工具栏位置微调 */
-.view-header:after {
-	content: "";
-	margin-left: 20px;
-}
 
 /* !工具面板设置-添加可拖动设置 */
 .view-header {
@@ -68,7 +42,7 @@ div.view-header>div.clickable-icon.view-header-icon::after {
 
 .inline-title {
 	-webkit-app-region: drag;
-	font-size: smaller;
+	font-size: smaller !important;
 	position: fixed !important;
 	bottom: 0px !important;
 	left: 0px;
@@ -79,6 +53,7 @@ div.view-header>div.clickable-icon.view-header-icon::after {
 	margin-top: 0;
 	margin-right: 0;
 	z-index: 1000 !important;
+	font-size: x-small;
 }
 
 /*! 适配Commander插件 */
